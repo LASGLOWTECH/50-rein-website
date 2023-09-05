@@ -6,26 +6,24 @@ import React, { useRef } from 'react';
 import { BiEnvelope } from "react-icons/Bi";
 import { BsTelephone, BsBank } from "react-icons/Bs";
 import { GrLocation } from "react-icons/gr";
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 
-// service_49qguid', 'template_v2xyokn', form.current, '_CS5cVKXtNvM7lVFW
 
 const Contact = () => {
 
-  // const Serv= 
-  // const Tempid= 
-  // const Pubkey= env.REACT_APP_MY_PUB_ID
+
 
   const form = useRef();
   const [loading, setIsloading] = useState(false)
   const [result, setResult] = useState("")
+
   const sendEmail = (e) => {
     console.log(env);
     e.preventDefault();
 
     setIsloading(true);
 
-    emailjs.sendForm('service_49qguid', 'template_v2xyokn', form.current, '_CS5cVKXtNvM7lVFW')
+    emailjs.sendForm('service_fee58ei', 'template_w36kvl7', form.current, 'bQh5caIlf3NMdx1_0')
 
       .then((result) => {
 
@@ -44,6 +42,7 @@ const Contact = () => {
 
 
       });
+
     e.target.reset()
     setResult("")
   };
@@ -108,7 +107,7 @@ const Contact = () => {
                 {!loading && <input type="submit" className=" hover:bg-lightBlue hover:text-white font-bold text-base flex place-self-start rounded-md  px-5 py-2 my-3 bg-orangeRed text-white" value="Send" />}
                 {loading && <input type="submit" className="text-base flex place-self-start rounded-md px-5 py-2  my-3 bg-yellow-400" disabled value="Sending" />}
               </div>
-
+                      {result &&<p className="text-base text-left text-[green] py-3">{result}</p>}
 
             </form>
 

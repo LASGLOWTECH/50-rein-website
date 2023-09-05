@@ -12,6 +12,42 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
 
+  const form = useRef();
+  const [loading, setIsloading] = useState(false)
+  const [result, setResult] = useState("")
+
+  const sendEmail = (e) => {
+    console.log(env);
+    e.preventDefault();
+
+    setIsloading(true);
+
+    emailjs.sendForm('service_fee58ei', 'template_w36kvl7', form.current, 'bQh5caIlf3NMdx1_0')
+
+      .then((result) => {
+
+
+        setIsloading(false);
+        setTimeout(() => {
+          setResult("Succesfully subscribed")
+
+
+        }, (1000))
+
+      }, (error) => {
+        console.log(error.text);
+        setTimeout(() => { setResult("Unable to send ") }, 1000);
+        setIsloading(false);
+
+
+      });
+    e.target.reset()
+    setResult("")
+    }
+
+
+
+
   const today = new Date().getFullYear();
     const [newDay] = useState(today)
   return (
@@ -85,7 +121,7 @@ const Footer = () => {
 <h4 className='   text-xl pb-2  text-left  text-orangeRed font-bold md:text-xl '>Subscribe to our newsletter</h4>
             
             <p className="text-base text-left text-gray-200 py-3">Get updates from us on our latest evennts</p>
-            <form className="">
+            <form className="form" ref={form} onSubmit={sendEmail}>
 
 
             <div className="email-send flex  flex-row justify-betweenitems-center ">
@@ -93,7 +129,7 @@ const Footer = () => {
                 <input type="Email" className="py-1  bg-cyanGreen ps-5 mt-2 w-[300px] h-[40px] text-base text-darkGrey rounded-md " name="user_email" required placeholder="Enter your email"></input>
                 <input type="submit" className=" hover:bg-lightBlue hover:text-white font-bold text-base flex place-self-start rounded-md  px-2 py-2 mt-2 mx-2 bg-orangeRed text-white" value="Send" />
               </div>
-
+              {result &&<p className="text-base text-left text-gray-200 py-3">{result}</p>}
 
             </form>
             
