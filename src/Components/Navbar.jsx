@@ -1,7 +1,10 @@
 
 import { useState } from "react";
-import { RxHamburgerMenu } from "react-icons/Rx";
+
 import { AiOutlineClose } from "react-icons/Ai"
+
+
+import {GiHamburgerMenu} from "react-icons/gi"
 import { Link } from "react-router-dom";
 
 import { IoMdArrowDropdown, IoMdArrowDropup } from "react-icons/io"
@@ -159,7 +162,7 @@ const Navbar = () => {
             <button className=" ">Contact us</button> </Link>
 
           {/* CONTROLS */}
-          {!show && < div className=' flex items-center rounded-sm hover:bg-black hover:text-white w-8 h-8  bg-lightBlue text-light justify-center md:hidden'>< RxHamburgerMenu className="font-bold text-lg text-white transition duration-500  " onClick={handleShow} /></div>}
+          {!show && < div className=' flex items-center rounded-sm hover:bg-black hover:text-white w-8 h-8  bg-lightBlue text-light justify-center md:hidden'>< GiHamburgerMenu  className="font-bold text-lg text-white transition duration-500  " onClick={handleShow} /></div>}
 
           {show && < div className=' flex items-center rounded-sm hover:bg-black hover:text-white w-8 h-8  bg-lightBlue text-light justify-center md:hidden'><AiOutlineClose className="font-bold text-lg text-white transition duration-500  " onClick={handleClose} /></div>}
 
@@ -175,7 +178,7 @@ const Navbar = () => {
 
 
         <div className="container px-6 mx-auto Navlinks  flex   flex-col space-y-3 text-white justify-between  text-base font-medium md:hidden  ">
-          <Link to="/hero" className="text-base   hover:text-orangeRed  text-white"> Home</Link>
+          <Link to="/" className="text-base   hover:text-orangeRed  text-white"> Home</Link>
 
           <Link to="/About" className="text-base   hover:text-orangeRed "> About</Link>
           <Link to="/." className="text-base   hover:text-orangeRed  text-white"> Services</Link>
