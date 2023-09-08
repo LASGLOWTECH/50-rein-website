@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 
-import { AiOutlineClose } from "react-icons/Ai"
+import { AiOutlineClose } from "react-icons/ai"
 
 
 import {GiHamburgerMenu} from "react-icons/gi"
