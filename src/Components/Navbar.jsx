@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { RxHamburgerMenu, RxThickArrowDown } from "react-icons/Rx";
+import { RxHamburgerMenu } from "react-icons/Rx";
 import { AiOutlineClose } from "react-icons/Ai"
 import { Link } from "react-router-dom";
 
