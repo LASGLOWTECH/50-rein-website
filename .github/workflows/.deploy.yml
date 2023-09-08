@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v3
       
 
-      - name: Use Node.js 16
+      - name: Use Node.js 18
         uses: actions/setup-node@v3
         with:
           node-version: '16'
@@ -25,14 +25,15 @@ jobs:
         run: |
           npm install
           npm run build
-          
+          npm run test
       - name: Sync folders and files to the server
         uses:   SamKirkland/FTP-Deploy-Action@4.3.3
+  
     
         with:
           server: ${{ secrets.GIT_CPANEL_REACT_SERVER }}
           username: ${{ secrets.GIT_CPANEL_REACT_USERNAME }}
           password: ${{ secrets.GIT_CPANEL_REACT_PWD }}
           protocol:  ${{ secrets.GIT_CPANEL_REACT_PROTOCOL }}
-          local-dir : ./build/
+          local-dir: ./dist/
         
