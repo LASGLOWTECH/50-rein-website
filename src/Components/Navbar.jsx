@@ -132,7 +132,7 @@ const Navbar = () => {
       <Link to="/Team" className="text-base px-3   hover:text-orangeRed transition    text-darkBlue ">Volunteer</Link>
       <Link to="/Team" className="text-base px-3   hover:text-orangeRed transition    text-darkBlue ">Partners</Link>
 
-     \r
+     
 
     </div>
 
@@ -155,8 +155,8 @@ const Navbar = () => {
 
 
           </div>
-          <a href="/contact" className=" hidden text-base px-3 py-2 rounded-md font-bold bg-orangeRed text-white md:flex ">
-            <button className=" ">Contact us</button> </a>
+          <Link to="/contact" className=" hidden text-base px-3 py-2 rounded-md font-bold bg-orangeRed text-white md:flex ">
+            <button className=" ">Contact us</button> </Link>
 
           {/* CONTROLS */}
           {!show && < div className=' flex items-center rounded-sm hover:bg-black hover:text-white w-8 h-8  bg-lightBlue text-light justify-center md:hidden'>< RxHamburgerMenu className="font-bold text-lg text-white transition duration-500  " onClick={handleShow} /></div>}

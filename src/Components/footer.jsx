@@ -1,8 +1,8 @@
 
 import { useState } from "react";
 import React, { useRef } from 'react';
-import { BiEnvelope } from "react-icons/Bi";
-import { BsTelephone, BsBank } from "react-icons/Bs";
+import  {BiEnvelope}  from "react-icons/Bi";
+import { BsTelephone,  } from "react-icons/Bs";
 import { GrLocation } from "react-icons/gr";
 
 import { BsTwitter, BsLinkedin } from "react-icons/Bs";

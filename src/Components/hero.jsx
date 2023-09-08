@@ -78,8 +78,8 @@ impact <span className="text-orangeRed "> "</span>  </p>
                integrity, consistency, morals and delivery of values....  </p>
 
               <Link to="/About" className="  text-xl 
-px-2 py-1 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
-                <button className=" text-xl font-light">Read more</button> </Link>
+px-2 py-2 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
+                <button className=" text-base font-light">Read more</button> </Link>
 
             </div>
 
@@ -98,8 +98,8 @@ px-2 py-1 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
               Real Estate Icons in Nigeria and in turn elevate the nation's real estate reputation globally.  </p>
 
               <Link to="/services" className="  text-xl 
-px-2 py-1 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
-                <button className=" text-xl font-light">Read more</button> </Link>
+px-3 py-3 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
+                <button className=" text-base font-light">Read more</button> </Link>
 
             </div>
 
@@ -133,8 +133,8 @@ lessons came at a cost............
   </p>
 
               <Link to="/About" className="  text-xl 
-px-2 py-1 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
-                <button className=" text-xl font-light">Explore</button> </Link>
+px-3 py-3 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
+                <button className=" text-base font-light">Explore</button> </Link>
 
             </div>
 
@@ -158,8 +158,8 @@ px-2 py-1 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
               Real Estate Icons in Nigeria and in turn elevate the nation's real estate reputation globally.  </p>
 
               <Link to="/services" className="  text-xl 
-px-2 py-1 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
-                <button className=" text-xl font-light">View Details</button> </Link>
+px-3 py-3 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
+                <button className=" text-base font-light">View Details</button> </Link>
 
             </div>
 

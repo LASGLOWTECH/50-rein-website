@@ -65,8 +65,8 @@ const Services = () => {
                     <div className=" shadow-lg rounded-md grid  gap-3 grid-cols-1    md:grid-cols-2">
                         {Service.map((items, index) => {
                             return (
-                                <div className="left p-4  hover:scale-105 transition  duration-500  bg-white"key={index} >
-                                    <span className="flex flex-row justify-center  items-center  md:justify-start "><img src={items.pics} alt="icon" className=" w-[70px] h-[70px] p-2  bg-white rounded-[100%] text-white " />
+                                <div className="left p-4  hover:scale-105 transition shadow-lg   duration-500  bg-white"key={index} >
+                                    <span className="flex flex-row justify-center  items-center  md:justify-start "><img src={items.pics} alt="icon" className=" w-[70px] h-[70px] p-2  bg-white shadow-lg rounded-[100%] " />
                                         <h4 className="text-darkBlue text-l ps-3 font-bold">{items.Title}</h4></span>
 
 
