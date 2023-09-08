@@ -1,9 +1,9 @@
 
 import { useState } from "react";
-// import{FiPhoneCall} from 'react-icons/Fi'
+
 
 import React, { useRef } from 'react';
-import { BiEnvelope } from "react-icons/Bi";
+import { BiEnvelope } from "react-icons/bi";
 import { BsTelephone } from "react-icons/bs";
 import { GrLocation } from "react-icons/gr";
 import emailjs from '@emailjs/browser';

@@ -1,7 +1,7 @@
 import Team1 from './Teamlist';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { BiStar } from "react-icons/Bi";
+import { BiStar } from "react-icons/bi";
 const Carouselitem=()=>{
     const responsive = {
         desktop: {
