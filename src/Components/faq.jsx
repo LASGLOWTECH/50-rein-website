@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BiPlus, BiMinus } from "react-icons/Bi";
+import { BiPlus, BiMinus } from "react-icons/bi";
 // import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 import FAQ from "./Faqlist";
 const Faq = () => {
