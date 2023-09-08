@@ -2,8 +2,8 @@
 import { Link } from "react-router-dom";
 // import Slides from './Herolist';
 
-import { BiBullseye } from "react-icons/Bi";
-import { BsEye } from "react-icons/Bs";
+import { BiBullseye } from "react-icons/bi";
+import { BsEye } from "react-icons/bs";
 import { useState } from "react";
 const About = () => {
 

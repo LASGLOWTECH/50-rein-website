@@ -1,11 +1,11 @@
 
 import { useState } from "react";
 import React, { useRef } from 'react';
-import  {BiEnvelope}  from "react-icons/Bi";
-import { BsTelephone,  } from "react-icons/Bs";
+import  {BiEnvelope}  from "react-icons/bi";
+import { BsTelephone,  } from "react-icons/bs";
 import { GrLocation } from "react-icons/gr";
 
-import { BsTwitter, BsLinkedin } from "react-icons/Bs";
+import { BsTwitter, BsLinkedin } from "react-icons/bs";
 import { FaFacebookF, FaInstagram, } from "react-icons/fa"
 import { Link } from "react-router-dom";
 

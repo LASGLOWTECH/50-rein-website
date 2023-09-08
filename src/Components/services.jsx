@@ -1,6 +1,5 @@
 import Service from "./Servicelist";
-import { BiBullseye } from "react-icons/Bi";
-import { BsEye } from "react-icons/Bs";
+
 import { Link } from "react-router-dom";
 
 

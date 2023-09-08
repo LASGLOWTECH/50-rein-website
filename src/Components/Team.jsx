@@ -3,8 +3,8 @@
 
 
 
-import { BsTwitter, BsLinkedin } from "react-icons/Bs";
-import { FaInstagram, } from "react-icons/fa"
+
+
 import Team1 from "./Teamlist";
 
 
