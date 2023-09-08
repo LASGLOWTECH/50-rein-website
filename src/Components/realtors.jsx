@@ -108,7 +108,7 @@ const Realtors = () => {
 
                     <div className="  bg-opacity-20 shadow-lg  flex items-center justify-center h-[70vh] rounded-ts-med Hero-about bg-opacity-20 mt-3 ">
                         {/* <img src="/mirrrorb.jpg" alt="vita" className="w-full h-auto  " /> */}
-                        <h2 className="text-white text-3xl  p-2 border-2 border-orangeRed">COSGROVE GROUP</h2>
+                        <h2 className="text-white text-3xl  p-2 border-2 border-orangeRed">50 REIGN</h2>
                         
                     </div>
 

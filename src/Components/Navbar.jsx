@@ -9,20 +9,28 @@ const Navbar = () => {
 
 
   const [isOpen3, setisOpen3] = useState(false)
+  const [isOpen2, setisOpen2] = useState(false)
+  const [isOpen, setisOpen] = useState(false)
+
+  const handleClose = () => {
+    setShow(false)
+  }
+
+
   const openItems3 = () => {
   
     setisOpen3(!isOpen3)
   }
 
 
-  const [isOpen2, setisOpen2] = useState(false)
+
   const openItems2 = (e) => {
     e.stopPropagation()
     setisOpen2(!isOpen2)
   }
 
 
-  const [isOpen, setisOpen] = useState(false)
+  
   const openItems = (event) => {
     event.stopPropagation()
 
@@ -38,9 +46,7 @@ const Navbar = () => {
 
   }
   const active = { display: 'flex' }
-  const handleClose = () => {
-    setShow(false)
-  }
+  
 
   const toggleI = show ? 'active' : '';
   return (
@@ -68,10 +74,10 @@ const Navbar = () => {
                   (<IoMdArrowDropup className="text-orangeRed text-base" />)
                 }</span>
 
-              <div className=" flex flex-col"  onMouseLeave={openItems}>
+              <div className=" flex flex-col"  >
 
                 {isOpen && (
-                  <div className="dropItems flex flex-col absolute  transition duration-500 ease-out  w-[150px]  mt-6 bg-white">
+                  <div className="dropItems  flex flex-col absolute  transition duration-500 ease-out  w-[150px]  mt-6 bg-white"  onClick={openItems}  onMouseLeave={openItems}>
                     <Link to="/About" className="text-base px-6  pt-2  hover:text-orangeRed  text-darkBlue">About us
                     </Link>
 
@@ -119,7 +125,7 @@ const Navbar = () => {
 <div className=" flex flex-col h-auto py-2"   >
 
   {isOpen3 && (
-    <div className="dropItems flex flex-col absolute  transition duration-500 ease-out  w-[150px]  mt-6 bg-white" onClick={openItems3}>
+    <div className="dropItems flex flex-col absolute  transition duration-500 ease-out  w-[150px]  mt-6 bg-white" onMouseLeave={openItems3} onClick={openItems3}>
       <Link to="/About" className="text-base px-3  pt-2  hover:text-orangeRed  text-darkBlue">Events
       </Link>
       <Link to="/Team" className="text-base px-3   hover:text-orangeRed transition    text-darkBlue ">Photo gallery</Link>

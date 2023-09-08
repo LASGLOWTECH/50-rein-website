@@ -36,7 +36,9 @@ const Carouselitem=()=>{
         <Carousel responsive= {responsive}
          transitionDuration={1000}
          containerClass="carousel-container"
-        
+         removeArrowOnDeviceType={["tablet", "mobile"]}
+            ssr={true} // means to render carousel on server-side.
+            infinite={true}
   
 >
 

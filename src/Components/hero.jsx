@@ -17,7 +17,7 @@ const Home = () => {
 
 
       <div className=" bg-darkBlue py-2  h-auto w-100 Hero">
-        <div className="  container py-6 mx-auto flex flex-col-reverse items-between md:flex-row ">
+        <div className="  container py-6 mx-auto flex flex-col items-between md:flex-row ">
           <div className="left px-4 py-6  "  data-aos="slide-right">
 
             <h1 className="text-white text-center md:text-left text-4xl   max-w-2xl font-bold">An ode to the past and a commitment to the future. </h1>

@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-
+import React, { useRef } from 'react';
 import { BiEnvelope } from "react-icons/Bi";
 import { BsTelephone, BsBank } from "react-icons/Bs";
 import { GrLocation } from "react-icons/gr";
@@ -129,7 +129,7 @@ const Footer = () => {
                 <input type="Email" className="py-1  bg-cyanGreen ps-5 mt-2 w-[300px] h-[40px] text-base text-darkGrey rounded-md " name="user_email" required placeholder="Enter your email"></input>
                 <input type="submit" className=" hover:bg-lightBlue hover:text-white font-bold text-base flex place-self-start rounded-md  px-2 py-2 mt-2 mx-2 bg-orangeRed text-white" value="Send" />
               </div>
-              {result &&<p className="text-base text-left text-gray-200 py-3">{result}</p>}
+              {result &&<p className="text-base text-left text-[green] py-3">{result}</p>}
 
             </form>
             

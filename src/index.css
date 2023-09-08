@@ -33,7 +33,7 @@ font-family: 'Poppins', sans-serif;
 /* Home Hero */
 
 .Hero{
-  background: rgba(11, 60, 70, 1.5) url("/propp1.jpeg");
+  background: rgba(11, 60, 70, 0.8) url("/propp1.jpeg");
   background-repeat: no-repeat;
   background-blend-mode:multiply;
   background-size: cover;
@@ -43,7 +43,7 @@ background-position: cover;
 
 
 .Hero-about{
-  background: rgba(11, 60, 70, 1.5) url("/meeting.jpg");
+  background: rgba(11, 60, 70, 0.9) url("/meeting.jpg");
   background-repeat: no-repeat;
   background-blend-mode:multiply;
   background-size: cover;
@@ -57,5 +57,22 @@ background-position: cover;
   background: rgba(11, 60, 70, 1.5) url("/awardstand.png");
   background-repeat: no-repeat;
 
-  background-size: cover;
+ background-size: cover;
 background-position: cover;}
+
+.Contact-Hero{
+ 
+z-index: -99;
+}
+
+
+
+.Services-hero{
+  
+  background: rgba(11, 60, 70,0.9) ;
+  background-repeat: no-repeat;
+  background-blend-mode:multiply;
+  background-size: cover;
+background-position: cover;
+
+}
