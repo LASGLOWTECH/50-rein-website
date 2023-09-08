@@ -28,6 +28,7 @@ jobs:
           
       - name: Sync folders and files to the server
         uses:   SamKirkland/FTP-Deploy-Action@4.3.3
+    
         with:
           server: ${{ secrets.GIT_CPANEL_REACT_SERVER }}
           username: ${{ secrets.GIT_CPANEL_REACT_USERNAME }}
