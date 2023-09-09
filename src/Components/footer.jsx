@@ -136,9 +136,9 @@ const Footer = () => {
             
             <div className='Email    flex  justify-start'>
 
-<span className=" rounded-[100%]   my-5 me-2 text-white bg-orangeRed  text-2xl"><a href="https://twitter.com/Nicholasmotivates1"><BsTwitter className="p-1" /></a></span>
-<span className="rounded-[100%] my-5  mx-2  text-white bg-orangeRed  text-2xl"><a href="https://www.facebook.com/Nicholasmotivates?mibextid=LQQJ4D"><FaFacebookF className="p-1" /></a></span>
-<span className=" rounded-[100%] my-5 mx-2 text-white  bg-orangeRed text-2xl"><a href="https://instagram.com/nicholasmotivates/"><FaInstagram className="p-1" /></a></span>
+<span className=" rounded-[100%]   my-5 me-2 text-white bg-orangeRed  text-2xl"><a href="https://twitter.com/50rein2023"><BsTwitter className="p-1" /></a></span>
+<span className="rounded-[100%] my-5  mx-2  text-white bg-orangeRed  text-2xl"><a href="https://www.facebook.com/50rein"><FaFacebookF className="p-1" /></a></span>
+<span className=" rounded-[100%] my-5 mx-2 text-white  bg-orangeRed text-2xl"><a href="https://instagram.com/50rein/"><FaInstagram className="p-1" /></a></span>
 <span className=" rounded-[100%] my-5 mx-2 text-white  bg-orangeRed text-2xl"><a href="https://linkedin.com/mwlite/in/nicholason-ugwuanyi-214428153"><BsLinkedin className="p-1" /></a></span>
 
 </div>
