@@ -1,7 +1,8 @@
 import Team1 from './Teamlist';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { BiStar } from "react-icons/bi";
+import {  BiSolidStar} from "react-icons/bi";
+
 const Carouselitem=()=>{
     const responsive = {
         desktop: {
@@ -26,17 +27,17 @@ const Carouselitem=()=>{
         <>
         <section className='bg-white '>
         <div className='mx-auto container '>
-        <div className="flex py-2 flex-row items-center justify-center ">
+        <div className="flex py-2  mpx-2 flex-row items-center justify-center ">
 
-<div className="border-2 mr-2 border-orangeRed rounded-md w-[50px] "></div>
+<div className="border-2 mr-2 border-orangeRed rounded-md w-[40px] "></div>
 <h3 className="text-xl font-bold text-darkBlue ">What People Say About us</h3>
-<div className="border-2 ms-2 border-orangeRed rounded-md w-[50px] "></div>
+<div className="border-2 ms-2 border-orangeRed rounded-md w-[40px] "></div>
 
 </div>
         <Carousel responsive= {responsive}
          transitionDuration={1000}
          containerClass="carousel-container"
-         removeArrowOnDeviceType={["tablet", "mobile"]}
+         removeArrowOnDeviceType={["tablet",  "mobile"]}
             ssr={true} // means to render carousel on server-side.
             infinite={true}
   
@@ -45,12 +46,13 @@ const Carouselitem=()=>{
 {Team1.map((testimonials, index)=>{
 
   return(
-<div className="py-8 px-3 bg-white shadow-md" key={index}>
-<p className="text-base text-greyBlack py-6 ">
+<div className="py-6 px-3 bg-white hover:bg-green-50  tansition duration-200 ease-in shadow-lg" key={index}>
+<p className="text-base text-center md:text-start text-greyBlack  pb-4 ">
                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi accusamus vitae consectetur,
                                   dolorem suscipit, voluptatem similique ratione r?  </p>
-                            <div className="flex flex-row justify-start ">
-                            <BiStar className="text-l font-bold text-darkBlue pt-4 "/>
+                            <div className="flex flex-row justify-start hover-blue-400 ">
+                            
+                       
 
                             <img src={testimonials.photo} alt="vita" className="mt-4 w-[100px] w-[100px]  p-2 rounded-[100%] border-2 bg-darkBlue shadow-md   " />
                             <div className="flex flex-col justify-start ps-3  ">
@@ -59,6 +61,15 @@ const Carouselitem=()=>{
                                    { testimonials.Name } </p>
                                 <p className="text-base  text-greyBlack  font-thin ">
                                 { testimonials.Position} </p>
+
+                                <div className='flex mt-3 flex-row justify-start'>
+                              <BiSolidStar className='text-orangeRed text-base'/>
+                              <BiSolidStar className='text-orangeRed text-base'/>
+                              <BiSolidStar className='text-orangeRed text-base'/>
+                              <BiSolidStar className='text-orangeRed text-base'/>
+                              <BiSolidStar className='text-orangeRed text-base'/>
+                            
+                              </div>
                                     </div> 
                             </div>
 

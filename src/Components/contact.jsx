@@ -1,12 +1,13 @@
 
 import { useState } from "react";
 
+import emailjs from '@emailjs/browser'
 
 import React, { useRef } from 'react';
-import { BiEnvelope } from "react-icons/bi";
-import { BsTelephone } from "react-icons/bs";
+import { BiSolidEnvelope } from "react-icons/bi";
+import { BiSolidPhoneCall } from "react-icons/bi";
 import { GrLocation } from "react-icons/gr";
-import emailjs from '@emailjs/browser';
+;
 
 
 const Contact = () => {
@@ -75,7 +76,7 @@ const Contact = () => {
 
           <div className="form">
 
-            <form className="  my-5 mx-3 flex flex-col px-3 bg-darkBlue shadow-3xl " ref={form} onSubmit={sendEmail}>
+            <form className="  my-5 flex flex-col px-3 bg-darkBlue shadow-3xl " ref={form} onSubmit={sendEmail}>
               < h3 className=" font-bold  text-xl pt-5 text-white ">Enter your details here</h3>
 
               <p className=" text-base text-green-500 ps-5 py-2 text-gray-500">{result} </p>
@@ -139,7 +140,7 @@ const Contact = () => {
 
           <div className="item-1 pt-5 flex justify-start pe-3">
             <div className="ico-items bg-orangeRed mt-2 flex items-center justify-center w-[30px] h-[30px] rounded-[50%]"  >
-              <BiEnvelope className="text-white" />
+              < BiSolidEnvelope  className="text-white" />
             </div>
 
 
@@ -152,7 +153,7 @@ const Contact = () => {
 
           <div className="item-1 pt-5  flex justify-start pe-2">
             <div className="ico-items bg-orangeRed mt-2 flex items-center justify-center w-[30px] h-[30px] rounded-[50%]" >
-              <BsTelephone className="text-white" />
+              <BiSolidPhoneCall className="text-white" />
 
             </div>
 

@@ -174,18 +174,66 @@ const Navbar = () => {
 
 
 
-      <div className={`hidden  text-white py-2 flex ${toggleI} bg-darkBlue transition  ease-out 5s duration-500  md:hidden    `} onClick={handleClose}>
+{/* responsive class */}
+
+      <div className={`hidden  text-white py-5 flex ${toggleI} bg-lightBlue   w-[100%] h-[auto] transition  ease-in-out delay-200 duration-500  md:hidden    `} onClick={handleClose}>
 
 
-        <div className="container px-6 mx-auto Navlinks  flex   flex-col space-y-3 text-white justify-between  text-base font-medium md:hidden  ">
+        <div className="container px-6 mx-auto Navlinks  flex  pt-5 flex-col space-y-3 text-white justify-between divide-y divide-grey-100  text-base font-medium md:hidden  ">
           <Link to="/" className="text-base   hover:text-orangeRed  text-white"> Home</Link>
 
-          <Link to="/About" className="text-base   hover:text-orangeRed "> About</Link>
-          <Link to="/." className="text-base   hover:text-orangeRed  text-white"> Services</Link>
+          
 
-          <Link to="/Team" className="text-base   hover:text-orangeRed "> Team</Link>
 
-          <Link to="/About" className="text-base   hover:text-orangeRed  text-white">estate Icons </Link>
+          <div className="drophead text-base   relative transition-all duration-500 ease-out   text-white " >
+
+
+<span className="flex flex-row justify-start cursor items-center"  onClick={openItems}>Who we are
+
+  {!isOpen ? (<IoMdArrowDropdown className="text-orangeRed text-base" />) :
+    (<IoMdArrowDropup className="text-orangeRed text-base" />)
+  }</span>
+
+<div className=" flex flex-col"  >
+
+  {isOpen && (
+    <div className="dropItems  flex flex-col   transition duration-500 ease-out  w-[150px]  mt-2 "  onClick={openItems}  onMouseLeave={openItems}>
+      <Link to="/About" className="text-base  pt-2  hover:bg-orangeRed  text-white">About us
+      </Link>
+
+      {/* drop items sumheader */}
+      <span className="flex flex-row text-white pt-2 justify-start items-center" onClick={openItems2}  >Our People
+
+        {!isOpen2 ? (<IoMdArrowDropdown className="text-orangeRed text-base" />) : (<IoMdArrowDropup className="text-orangeRed text-base" />)} </span>
+
+      {isOpen2 && (
+        <div className=" flex flex-col ">
+          <Link to="/Team" className="text-base   pt-2  hover:text-orangeRed  text-white">Our Team
+          </Link>
+          < Link to="/About" className="text-base  pt-2  hover:text-orangeRed  text-white">Testimonials
+          </Link>
+        </div>
+      )}
+
+    </div>
+
+  )}
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+          <Link to="/services" className="text-base   hover:text-orangeRed  text-white"> What we do</Link>
+
+       
+
+          <Link to="/realtors" className="text-base   hover:text-orangeRed  text-white">Estate Icons </Link>
           <Link to="/Gallery" className="text-base  hover:text-orangeRed  text-white"> Gallery</Link>
 
 

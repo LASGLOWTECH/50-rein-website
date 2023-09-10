@@ -1,5 +1,7 @@
 
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 
 
@@ -9,6 +11,14 @@ import Team1 from "./Teamlist";
 
 
 const Team = () => {
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+    
+    }, []);
+    
+
+
+
     return (<>
         <div className="Team py-4">
             <div className="flex pt-10 flex-row items-center justify-center ">
@@ -35,7 +45,7 @@ const Team = () => {
 
                 {Team1.map((team, index)=>{
     return(
-        <div className=" bg-darkBlue shadow-lg px-4 hover:scale-110  hover:bg-white transition  duration-500 " key={index}>
+        <div className=" bg-darkBlue shadow-lg px-4 hover:scale-110  hover:bg-white transition  duration-500 " data-aos="zoom-in-up" key={index}>
         <div className=" py-6  ">
             <img src={team.photo} alt="vita" className="w-[200px] h-[200px] mx-auto p-2 rounded-[100%] border-2 bg-white shadow-md   " />
 
@@ -43,7 +53,7 @@ const Team = () => {
                 <div className="flex flex-col  items-center">
                     <p className="text-l font-bold text-orangeRed  pt-3 ">
                        {team.Name}  </p>
-                    <p className="text-base  text-greyBlack text-truncate  pt-2 pb-3 font-thin ">
+                    <p className="text-[14px]  text-gray-400   pt-2 pb-3 font-thin ">
                         {team.Position} </p>
                 </div>
 

@@ -62,7 +62,7 @@ const Footer = () => {
             {/* <h5 className=' max-w-md text-xl pb-2 text-left text-orangeRed font-bold md:text-xl'>Contact us </h5> */}
             <img src="/50rein.png" alt="vita" className="w-[100px] h-auto " />
 
-              < p className="text-base   text-greyBlack py-3">Real Estate icons in Nigeria</p>
+              < p className="text-base text-gray-500 py-3">Real Estate icons in Nigeria</p>
 
             <div className="flex flex-row justify-left items-center pt-3">
 
@@ -93,9 +93,9 @@ const Footer = () => {
 
           {/* second grid */}
           <div className="footer-items 
-      w-100 flex justify-left  flex-col ">
+      w-100 flex justify-left md:ms-10 flex-col ">
 
-            <h4 className='   text-xl pb-2  text-left  text-orangeRed font-bold md:text-xl '>Quick Links </h4>
+            <h4 className='   text-base pb-2  text-left  text-orangeRed font-bold md:text-xl '>Quick Links </h4>
             <p className="text-base  hover:text-orangeRed text-gray-200 py-2"><Link to="/About">About us </Link> </p>
             <p className="text-base hover:text-orangeRed  text-gray-200 py-2"><Link to="/services">Services</Link> </p>
             <p className="text-base  hover:text-orangeRed text-gray-200 py-2"><Link to="/realtors">Iconic Estates</Link> </p>
@@ -108,19 +108,18 @@ const Footer = () => {
           <div className="footer-items flex 
   flex-col ">
 
-            <h4 className='   text-xl pb-2  text-left  text-orangeRed font-bold md:text-xl '>Pages</h4>
+            <h4 className='   text-base pb-2  text-left  text-orangeRed font-bold md:text-xl '>Pages</h4>
             <p className="text-base  text-left text-gray-200 py-2"><Link to="/faq">FAQ</Link> </p>
 
-            <p className="text-base  text-left text-gray-200 py-2">Terms & conditions </p>
 
 
           </div>
 
           <div className="footer-items 
         flex flex-col ">
-<h4 className='   text-xl pb-2  text-left  text-orangeRed font-bold md:text-xl '>Subscribe to our newsletter</h4>
+<h4 className='   text-base pb-2  text-left  text-orangeRed font-bold md:text-xl '>Subscribe to our newsletter</h4>
             
-            <p className="text-base text-left text-gray-200 py-3">Get updates from us on our latest evennts</p>
+            <p className="text-base text-left text-gray-500 py-3">Get updates from us on our latest evennts</p>
             <form className="form" ref={form} onSubmit={sendEmail}>
 
 
@@ -149,7 +148,7 @@ const Footer = () => {
         </div>
 
 <div className="flex flex-col justify-between row flex-col md:flex-row">
-<p className="text-sm text-center md:text-left font-lighter  text-greyBlack py-2"> Copyright &copy; 50 rein  All rights reserved <span className="  text-greyDark">{newDay} </span><br></br> powered by Lasglowtech</p>
+<p className="text-sm text-center md:text-left font-lighter  text-gray-500 py-2"> Copyright &copy; 50 rein  All rights reserved <span className="  text-greyDark">{newDay} </span><br></br> powered by Lasglowtech</p>
  
 
 </div>

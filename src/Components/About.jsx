@@ -1,11 +1,23 @@
 // import { useState } from "react";
 import { Link } from "react-router-dom";
 // import Slides from './Herolist';
-
+import { GoGoal } from "react-icons/go"
 import { BiBullseye } from "react-icons/bi";
 import { BsEye } from "react-icons/bs";
 import { useState } from "react";
+
+
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
 const About = () => {
+    
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+
+}, []);
 
     const [readmore, setReadmore] = useState(false)
 
@@ -18,7 +30,7 @@ const About = () => {
     return (<>
 
         {/* Hheader test */}
-        <div className="flex py-8 flex-row items-center justify-center ">
+        <div className="flex pt-8 pb-4 flex-row items-center justify-center ">
 
             <div className="border-2 mr-2 border-orangeRed rounded-md w-[50px] "></div>
             <h3 className="text-2xl font-bold text-darkBlue ">ABOUT<span className="text-orangeRed" > US</span></h3>
@@ -29,44 +41,34 @@ const About = () => {
         {/* About Hero */}
 
 
-        <div className=" py-10 h-auto w-100 Hero-about" >
+        <div className="  h-auto w-100 " >
             <div className=" container mx-auto px-6" >
-                <div className="   flex flex-col md:flex-row justify-between items-center shadow-lg  ">
+                <div className="   flex flex-col md:flex-row justify-between items-center   ">
 
-                    <div className="left py-12 px-4 ">
-                        <p className="text-3xl  text-orangeRed font-md py-4">
+                    <div className="left py-8 px-2">
+                        <p className="text-2xl  text-orangeRed font-md py-2">
                             Our Story  </p>
-                        <h2 className="text-white font-bold   max-w-2xl text-4xl"> A Journey of Resilience and Vision
+                        <h2 className="text-darkBlue font-bold  text-3xl  md:text-4xl"> A Journey of Resilience and Vision
                         </h2>
 
-                        <p className="text-base  text-white  max-w-xl  font-md py-6 ">At 50 REIN, we are dedicated to the art of storytelling. We delve deep into the lives and
+                        <p className="text-base  border-orangeRed rounded-md border-l-2 ps-2   text-greyBlack max-w-xl  font-md py-6 ">At 50 REIN, we are dedicated to the art of storytelling. We delve deep into the lives and
                             accomplishments of Nigerian Real Estate Icons, crafting narratives that breathe life into their
                             journeys. Through vivid profiles and insightful anecdotes, we bring their stories to the
                             forefront, chronicling their rise to becoming industry icons in a compendium. With each
                             profile, we aim to inspire, educate, and honor the individuals who’ve carved their names into
                             the annals of Nigerian real estate history</p>
 
-                            <Link to="/faq" className="  text-xl 
+                        <Link to="/faq" className="  text-xl 
 px-3 py-3 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
-              <button className=" text-xl">know more</button> </Link>
+                            <button className=" text-xl">know more</button> </Link>
 
                     </div>
 
                     {/* rounded square */}
-
-                    <div className="border-2 pt-[-50px] px-4 my-12  border-orangeRed rounded-3xl w-[300px]  relative h-[300px] flexitems-center ">
-                        <div className="right ms-[75px] mt-[-25px] w-auto  h-[50px] absolute rounded-xl bg-orangeRed  ">
-
-                            <p className="text-2xl  text-white font-md py-2 px-3">
-                                Our Goal  </p>
-                        </div>
-
-                        <p className="text-base  text-white   py-16 font-md  ">
-                            <span className="text-orangeRed text-2xl"> "</span> To become a premier platform in Nigeria documenting the narratives of Real Estate Icons
-                            while inspiring greatness.<span className="text-orangeRed text-2xl"> "</span>
+                    <div className=" bg-white   ">
+                        <img src="/aboutus.jpg" alt="vita" className="  w-full md:w-[600px] h-auto  md:py-20 " data-aos="slide-up" />
 
 
-                        </p>
 
 
 
@@ -85,11 +87,20 @@ px-3 py-3 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
 
 
 
-        <section className=" container bg-white shadow-lg mx-auto px-6 grid  gap-3 grid-cols-1  py-6  md:grid-cols-2 " >
-            <div className="left px-4 py-12  ">
+        <section className="mx-auto px-6">
+
+
+
+
+
+        </section>
+
+
+        <section className=" bg-white container mx-auto grid  gap-3 grid-cols-1  py-6  md:grid-cols-2 " >
+            <div className="left px-4 py-12 shadow-lg  ">
                 <p className="text-2xl  text-orangeRed font-md ">
                     History </p>
-                <h2 className="text-darkBlue font-bold text-4xl">How we came about and Mandates</h2>
+                <h2 className="text-darkBlue font-bold text-4xl">How We Started</h2>
 
                 <p className="text-base text-greyBlack font-md pt-6 pb-2  ">
                     In the dynamic world of real estate, our journey began with a stumble, but it transformed
@@ -139,7 +150,42 @@ px-3 py-3 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
             </div>
 
             <div className=" bg-white   ">
-                    <img src="/team.jpg" alt="vita" className="w-full h-auto  md:py-20 " />
+                <img src="/ourhistory.jpg" alt="vita" className="w-full h-auto  md:py-20 " data-aos="slide-left" />
+
+
+
+
+
+            </div>
+
+        </section>
+
+
+        <section className="">
+            <div className="  container py-6 mx-auto grid  gap-3 grid-cols-1    md:grid-cols-2 ">
+                <div className="   rounded-md " data-aos="slide-up">
+                    <div className="left px-6 pt-6 md:pt-20 hover:scale-110 transition  duration-500  ">
+                        <span className="flex flex-row items-center justify-left"><GoGoal className="text-4xl font-bold text-darkBlue " />
+                            <h4 className="text-darkBlue text-2xl ps-3 font-bold">Our Goals</h4></span>
+
+                        <div className="border-2 mt-1 ms-14 border-orangeRed rounded-md w-[100px] "></div>
+                        <p className="text-l text-greyBlack  font-md  ">
+                            To become a premier platform in Nigeria documenting the narratives of Real Estate Icons
+                            while inspiring greatness  </p>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+                <div className=" bg-white   ">
+                    <img src="/ourgoalsr.jpg" alt="vita" className="md:w-[400px] md:py-5 " data-aos="slide-left" />
 
 
 
@@ -147,15 +193,11 @@ px-3 py-3 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
 
                 </div>
 
-        </section>
 
 
-        <section className="">
-            <div className="  container py-6 mx-auto grid  gap-6 grid-cols-1    md:grid-cols-2 ">
 
-
-                <div className=" bg-cyanGreen shadow-lg rounded-md ">
-                    <div className="left px-6 py-8 hover:scale-110 transition  duration-500  ">
+                <div className="  shadow-lg rounded-md  hover:scale-110 transition  duration-500  ">
+                    <div className="left px-6 py-8 ">
                         <span className="flex flex-row items-center justify-left"><BsEye className="text-4xl font-bold text-darkBlue " />
                             <h4 className="text-darkBlue text-2xl ps-3 font-bold">Our Vision</h4></span>
 
@@ -173,10 +215,19 @@ px-3 py-3 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
 
                 </div>
 
+                <div className=" bg-white   ">
+                    <img src="/ourvision.jpg" alt="vita" className=" md:w-[400px]  md:py-2 " />
+
+
+
+
+
+                </div>
+
 
 
                 <div className=" bg-white shadow-lg  ">
-                    <div className="left px-6 py-8 hover:scale-110 transition  duration-500  ">
+                    <div className="left px-6 pt-8 hover:scale-110 transition  duration-500  ">
                         <span className="flex flex-row items-center justify-left"><BiBullseye className="text-4xl font-bold text-darkBlue " />
                             <h4 className="text-darkBlue text-2xl ps-3 font-bold">Our Mission</h4></span>
 
@@ -190,6 +241,16 @@ px-3 py-3 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
 
 
                     </div>
+
+
+                </div>
+
+
+                <div className=" bg-white   ">
+                    <img src="/ourmission.jpg" alt="vita" className="md:w-[400px] -full h-auto  md:py-20 " />
+
+
+
 
 
                 </div>

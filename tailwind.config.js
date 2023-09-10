@@ -18,7 +18,7 @@ export default {
         lightBlue:'#249298',
         orangeRed:'#F87A28',
         cyanGreen:'#eaf8fa',
-        greyBlack:'#707070'
+        greyBlack:'#181B38'
       }
   
     },

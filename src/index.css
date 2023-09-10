@@ -33,9 +33,9 @@ font-family: 'Poppins', sans-serif;
 /* Home Hero */
 
 .Hero{
-  background: rgba(11, 60, 70, 0.8) url("/propp1.jpeg");
+  background: url("/abstractbg.jpg");
   background-repeat: no-repeat;
-  background-blend-mode:multiply;
+
   background-size: cover;
 background-position: cover;
 
@@ -67,12 +67,11 @@ z-index: -99;
 
 
 
-.Services-hero{
+.services-hero{
   
-  background: rgba(11, 60, 70,0.9) ;
+  background-image: url("/abstractbg.jpg") ;
   background-repeat: no-repeat;
-  background-blend-mode:multiply;
   background-size: cover;
-background-position: cover;
+
 
 }
