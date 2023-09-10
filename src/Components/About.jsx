@@ -205,8 +205,7 @@ px-3 py-3 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
                         <p className="text-l text-greyBlack text-truncate font-md py-6 ">
                             We envision a future where the stories of these Nigerian Real Estate Icons inspire
                             generations, where their achievements become building blocks for a resilient and thriving
-                            real estate industry. Guided by their stories, we strive for a Nigeria where innovation is celebrated, progress is
-                            unwavering, and the path to excellence is illuminated for all.  </p>
+                            real estate industry.  </p>
 
 
 
@@ -236,8 +235,7 @@ px-3 py-3 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
                             To curate, celebrate, and document the stories of these icons, highlighting their exceptional
                             contributions, innovations, and impacts on the Nigerian Real Estate Landscape, thereby
                             fostering industry growth and recognition.
-                            We are committed to building a community where the lessons of these icons shape the minds
-                            of emerging leaders, fueling an environment of growth and transformation.  </p>
+                              </p>
 
 
                     </div>

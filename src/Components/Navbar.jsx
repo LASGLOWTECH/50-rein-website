@@ -146,13 +146,7 @@ const Navbar = () => {
 
 
 </div>
-            {/* <div className="drophead text-base px-3   relative transition duration-500 ease-out border-orangeRed  text-white "  >
-
             
-
-</div> */}
-
-
 
 
 
@@ -162,9 +156,9 @@ const Navbar = () => {
             <button className=" ">Contact us</button> </Link>
 
           {/* CONTROLS */}
-          {!show && < div className=' flex items-center rounded-sm hover:bg-black hover:text-white w-8 h-8  bg-lightBlue text-light justify-center md:hidden'>< GiHamburgerMenu  className="font-bold text-lg text-white transition duration-500  " onClick={handleShow} /></div>}
+          {!show && < div className=' flex items-center rounded-sm hover:bg-lightBlue hover:text-white w-8 h-8  bg-orangeRed text-light justify-center md:hidden'>< GiHamburgerMenu  className="font-bold text-lg text-white transition duration-500  " onClick={handleShow} /></div>}
 
-          {show && < div className=' flex items-center rounded-sm hover:bg-black hover:text-white w-8 h-8  bg-lightBlue text-light justify-center md:hidden'><AiOutlineClose className="font-bold text-lg text-white transition duration-500  " onClick={handleClose} /></div>}
+          {show && < div className=' flex items-center rounded-sm hover:bg-lightBlue hover:text-white w-8 h-8  bg-orangeRed text-light justify-center md:hidden'><AiOutlineClose className="font-bold text-lg text-white transition duration-500  " onClick={handleClose} /></div>}
 
 
         </div>
@@ -176,10 +170,10 @@ const Navbar = () => {
 
 {/* responsive class */}
 
-      <div className={`hidden  text-white py-5 flex ${toggleI} bg-lightBlue   w-[100%] h-[auto] transition  ease-in-out delay-200 duration-500  md:hidden    `} onClick={handleClose}>
+      <div className={`hidden  text-white py-5 flex ${toggleI} bg-darkBlue border-lightBlue border-t-2 w-[100%] h-[auto] transition  ease-in-out delay-200 duration-500  md:hidden    `} onClick={handleClose}>
 
 
-        <div className="container px-6 mx-auto Navlinks  flex  pt-5 flex-col space-y-3 text-white justify-between divide-y divide-grey-100  text-base font-medium md:hidden  ">
+        <div className="container px-6 mx-auto Navlinks  flex  pt-5 flex-col space-y-3 text-white justify-between  text-base font-medium md:hidden  ">
           <Link to="/" className="text-base   hover:text-orangeRed  text-white"> Home</Link>
 
           
