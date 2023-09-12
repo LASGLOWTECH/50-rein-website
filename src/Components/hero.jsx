@@ -14,7 +14,7 @@ const Home = () => {
 }, []);
   return (
     <>
-      <div className="bg-blue-50 py-4 h-auto w-100 "></div>
+      <div className="bg-blue-50 h-auto w-100 "></div>
 
 
       <div className=" Hero py-2  h-auto w-100 ">
@@ -23,7 +23,7 @@ const Home = () => {
 
             <h1 className="text-darkBlue pt-5 text-4xl  md:text-left md:text-5xl   max-w-xl font-bold">A Compedium of Excellence </h1>
             <p className="text-[18px] font-normal text-greyBlack pt-6  pb-6">
-           50 Rein is curating an anthology of greatness in a compedium. A compedium where the journeys of Nigerian Real Estate Icons can be explored, their challenges understood, and their triumps celebrated
+           50 Rein is curating an anthology of greatness in a compedium. A compedium where the journeys of Nigerian Real Estate Icons can be explored, their challenges understood, and their triumphs celebrated.
  </p>
 
             <Link to="/About" className="  text-xl 
@@ -177,13 +177,18 @@ px-3 py-3 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
 
 <Carouselitem/>
 
-<div className="md:mx-36 slide-in">
+
+<div className="md:mx-36 ">
 
 
-<Faq data-aos=""/>
+
+<Faq data-aos="flip-up"/>
 </div>
 
     </>
+
+
+
   )
 }
 export default Home;
