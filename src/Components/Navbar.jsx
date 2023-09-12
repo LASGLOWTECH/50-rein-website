@@ -80,7 +80,7 @@ const Navbar = () => {
               <div className=" flex flex-col"  >
 
                 {isOpen && (
-                  <div className="dropItems  flex flex-col absolute  transition duration-500 ease-out  w-[150px]  mt-6 bg-white"  onClick={openItems}  onMouseLeave={openItems}>
+                  <div className="dropItems  flex flex-col absolute  transition duration-500 ease-out  w-[150px]  mt-4 bg-white"  onClick={openItems}  onMouseLeave={openItems}>
                     <Link to="/About" className="text-base px-6  pt-2  hover:text-orangeRed  text-darkBlue">About us
                     </Link>
 
@@ -129,7 +129,7 @@ const Navbar = () => {
 
   {isOpen3 && (
     <div className="dropItems flex flex-col absolute  transition duration-500 ease-out  w-[150px]  mt-6 bg-white" onMouseLeave={openItems3} onClick={openItems3}>
-      <Link to="/About" className="text-base px-3  pt-2  hover:text-orangeRed  text-darkBlue">Events
+      <Link to="/realtors" className="text-base px-3  pt-2  hover:text-orangeRed  text-darkBlue">Realtors
       </Link>
       <Link to="/Team" className="text-base px-3   hover:text-orangeRed transition    text-darkBlue ">Photo gallery</Link>
       <Link to="/Team" className="text-base px-3   hover:text-orangeRed transition    text-darkBlue ">Volunteer</Link>
@@ -156,9 +156,9 @@ const Navbar = () => {
             <button className=" ">Contact us</button> </Link>
 
           {/* CONTROLS */}
-          {!show && < div className=' flex items-center rounded-sm hover:bg-lightBlue hover:text-white w-8 h-8  bg-orangeRed text-light justify-center md:hidden'>< GiHamburgerMenu  className="font-bold text-lg text-white transition duration-500  " onClick={handleShow} /></div>}
+          {!show && < div className=' flex items-center rounded-sm hover:bg-lightBlue hover:text-white w-8 h-8 me-3 bg-orangeRed text-light justify-center md:hidden'>< GiHamburgerMenu  className="font-bold text-lg text-white transition duration-500  " onClick={handleShow} /></div>}
 
-          {show && < div className=' flex items-center rounded-sm hover:bg-lightBlue hover:text-white w-8 h-8  bg-orangeRed text-light justify-center md:hidden'><AiOutlineClose className="font-bold text-lg text-white transition duration-500  " onClick={handleClose} /></div>}
+          {show && < div className=' flex items-center rounded-sm hover:bg-lightBlue hover:text-white w-8 h-8  mr-3 bg-orangeRed text-light justify-center md:hidden'><AiOutlineClose className="font-bold text-lg text-white transition duration-500  " onClick={handleClose} /></div>}
 
 
         </div>
@@ -201,7 +201,7 @@ const Navbar = () => {
         {!isOpen2 ? (<IoMdArrowDropdown className="text-orangeRed text-base" />) : (<IoMdArrowDropup className="text-orangeRed text-base" />)} </span>
 
       {isOpen2 && (
-        <div className=" flex flex-col ">
+        <div className=" flex flex-col " onClick={handleClose} >
           <Link to="/Team" className="text-base   pt-2  hover:text-orangeRed  text-white">Our Team
           </Link>
           < Link to="/About" className="text-base  pt-2  hover:text-orangeRed  text-white">Testimonials
@@ -228,7 +228,7 @@ const Navbar = () => {
        
 
           <Link to="/realtors" className="text-base   hover:text-orangeRed  text-white">Estate Icons </Link>
-          <Link to="/Gallery" className="text-base  hover:text-orangeRed  text-white"> Gallery</Link>
+          <Link to="/team" className="text-base  hover:text-orangeRed  text-white"> Gallery</Link>
 
 
           <Link to="/contact" className="text-base   hover:text-orangeRed  text-white"> Contact</Link>

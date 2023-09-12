@@ -4,8 +4,8 @@ const Realtors = () => {
 
 
 
-            <div className=" py-20 h-auto w-100 Hero-about" >
-                <div className=" container mx-auto px-6" >
+            <div className=" py-20 h-auto bg-gradient-to-r from-darkBlue to-darkBlue w-100 Hero-aout" >
+                <div className=" container mx-auto px-2" >
 
                     <div className="flex flex-row  py-6 items-center justify-center ">
 
@@ -15,12 +15,12 @@ const Realtors = () => {
 
                     </div>
 
-                    <div className="   flex flex-col  justify-center items-center shadow-lg  ">
+                    <div className="   flex flex-col  justify-center items-center   ">
 
-                        <div className="left  px-4 ">
+                        <div className="left   ">
 
 
-                            <h1 className="text-white font-bolder  text-center  text-4xl">Modern Times Realtors in the Esate Industry</h1>
+                            <h1 className="text-white text-3xl font-bolder  text-center  md:text-4xl">Modern Times Realtors in the Esate Industry</h1>
 
                             <p className="text-base  text-white   text-center font-md py-6 ">At 50 REIN, we are dedicated to the art of storytelling. We delve deep into the lives and
                                 accomplishments of Nigerian Real Estate Icons, crafting narratives that breathe life into their
@@ -58,9 +58,9 @@ const Realtors = () => {
                         </div>
                         <div className="flex flex-col pt-2 md:pt-2 bg-darkBlue px-6 md:pe-20  justify-start">
 
-                            <h3 className="text-xl pt-5 text-orangeRed font-bold">Alhaj Usman</h3>
+                            <h3 className="text-xl pt-5 text-orangeRed font-bold">Engr Mark</h3>
                             <p className="text-base  text-white font-lighter py-2 ">
-                                Founder Cosgrove.  </p>
+                                Founder 50 Rein.  </p>
 
                             <p className="text-base  py-2 text-white font-md ">
                                 Being passionate about creating a terrific impact in the Nigeria real estate industry,

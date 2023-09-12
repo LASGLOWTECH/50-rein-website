@@ -39,7 +39,7 @@ const Team = () => {
 
 
         <section className="bg-gradient-to-r from-lightBlue to-darkBlue">
-            <div className="  container py-4 mx-auto grid  gap-6 grid-cols-1    md:grid-cols-3 ">
+            <div className="  container py-4 mx-auto grid  gap-3 grid-cols-1    md:grid-cols-3 ">
 
                 {/* first grid item */}
 
@@ -53,7 +53,7 @@ const Team = () => {
                 <div className="flex flex-col  items-center">
                     <p className="text-l font-bold text-orangeRed  pt-3 ">
                        {team.Name}  </p>
-                    <p className="text-[14px]  text-gray-400   pt-2 pb-3 font-thin ">
+                    <p className="text-[14px]  text-gray-400   pt-1 pb-3 font-thin ">
                         {team.Position} </p>
                 </div>
 

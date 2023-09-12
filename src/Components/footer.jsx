@@ -3,7 +3,7 @@ import { useState } from "react";
 import React, { useRef } from 'react';
 import  {BiEnvelope}  from "react-icons/bi";
 import { BsTelephone,  } from "react-icons/bs";
-import { GrLocation } from "react-icons/gr";
+import { MdLocationOn } from "react-icons/md";
 
 import { BsTwitter, BsLinkedin } from "react-icons/bs";
 import { FaFacebookF, FaInstagram, } from "react-icons/fa"
@@ -66,7 +66,7 @@ const Footer = () => {
 
             <div className="flex flex-row justify-left items-center pt-3">
 
-              <span className=" rounded-[100%]    me-2 bg-orangeRed  text-white text-2xl">    <GrLocation className=" p-1 text-white " /></span>
+              <span className=" rounded-[100%]    me-2 bg-orangeRed  text-white text-2xl">    <MdLocationOn className=" p-1 fill-white " /></span>
               <p className="text-base   text-white ">12 Ben Flo, Orchid Road, Etiosa, Lagos</p>
             </div>
 

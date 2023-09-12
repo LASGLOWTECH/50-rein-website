@@ -150,7 +150,7 @@ px-3 py-3 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
             </div>
 
             <div className=" bg-white   ">
-                <img src="/ourhistory.jpg" alt="vita" className="w-full h-auto  md:py-20 " data-aos="slide-left" />
+                <img src="/ourhistory.jpg" alt="vita" className="w-full h-auto  md:py-20 " data-aos="slide-up" />
 
 
 
@@ -185,7 +185,7 @@ px-3 py-3 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
 
 
                 <div className=" bg-white   ">
-                    <img src="/ourgoalsr.jpg" alt="vita" className="md:w-[400px] md:py-5 " data-aos="slide-left" />
+                    <img src="/ourgoalsr.jpg" alt="vita" className="md:w-[400px] md:py-5 " data-aos="slide-up" />
 
 
 

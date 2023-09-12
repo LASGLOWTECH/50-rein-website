@@ -6,7 +6,8 @@ import emailjs from '@emailjs/browser'
 import React, { useRef } from 'react';
 import { BiSolidEnvelope } from "react-icons/bi";
 import { BiSolidPhoneCall } from "react-icons/bi";
-import { GrLocation } from "react-icons/gr";
+
+import { MdLocationOn } from "react-icons/md";
 ;
 
 
@@ -123,7 +124,7 @@ const Contact = () => {
 
           <div className="item-1  pt-5 flex justify-start pe-3">
             <div className="ico-items bg-orangeRed mt-2 flex w-[30px] h-[30px] rounded-full items-center justify-center px-2 ">
-              < GrLocation className="text-white stroke-white" />
+              < MdLocationOn className="text-white stroke-white" />
 
             </div>
 

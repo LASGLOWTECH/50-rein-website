@@ -39,12 +39,12 @@ function App() {
 
         <img src='/50logo.png' className="load-img animate-pulse w-[300px]" alt='hem' ></img>
 
-        <p className=' text-white text-xl font-medium -mt-[100px]'>Real Estate Icos in Nigeria</p></div> :
+        <p className=' text-white text-base font-light -mt-[120px]'>Real Estate Icons in Nigeria</p></div> :
 <>
       <Navbar/>
    <Routes>
 
-   <Route   path='/' element={<Home />} />
+   <Route path='/' element={<Home />} />
   
       <Route path='/About' element={<About />} />
       <Route path='/contact' element={<Contact />} />

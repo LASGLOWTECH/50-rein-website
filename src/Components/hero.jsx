@@ -149,7 +149,7 @@ px-3 py-2 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
                 the exemplary achievements of 
               Real Estate Icons in Nigeria and in turn elevate the nation's real estate reputation globally.  </p>
 
-              <Link to="/services" className="  text-xl 
+              <Link to="/realtors" className="  text-xl 
 px-3 py-3 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
                 <button className=" text-base font-light">View Details</button> </Link>
 
@@ -159,7 +159,7 @@ px-3 py-3 rounded-md  bg-orangeRed text-white hover:bg-lightBlue  ">
           </div>
 
 
-          <div className=" bg-white shadow-lg  "  data-aos="zoom-up">
+          <div className=" bg-white shadow-lg  "  data-aos="flip-right">
           <img src="/mirrrorb.jpg" alt="vita" className="w-full h-auto " />
 
        

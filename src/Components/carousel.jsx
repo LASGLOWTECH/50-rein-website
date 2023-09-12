@@ -48,8 +48,7 @@ const Carouselitem=()=>{
   return(
 <div className="py-6 px-3 bg-white hover:bg-green-50  tansition duration-200 ease-in shadow-lg" key={index}>
 <p className="text-base text-center md:text-start text-greyBlack  pb-4 ">
-                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi accusamus vitae consectetur,
-                                  dolorem suscipit, voluptatem similique ratione r?  </p>
+                                {testimonials.text} </p>
                             <div className="flex flex-row justify-start hover-blue-400 ">
                             
                        
