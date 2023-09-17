@@ -33,7 +33,7 @@ font-family: 'Poppins', sans-serif;
 /* Home Hero */
 
 .Hero{
-  background: url("/abstractbg.jpg");
+  background: url("/");
   background-repeat: no-repeat;
 
   background-size: cover;
