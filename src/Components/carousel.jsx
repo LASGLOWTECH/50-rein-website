@@ -27,10 +27,10 @@ const Carouselitem=()=>{
         <>
         <section className='bg-white '>
         <div className='mx-auto container '>
-        <div className="flex py-2  mpx-2 flex-row items-center justify-center ">
+        <div className="flex py-2 mb-3 px-2 flex-row items-center justify-center ">
 
-<div className="border-2 mr-2 border-orangeRed rounded-md w-[40px] "></div>
-<h3 className="text-xl font-bold text-darkBlue ">What People Say About us</h3>
+<div className="border-2   mr-2 border-orangeRed rounded-md w-[40px] "></div>
+<h3 className="text-xl font-bold text-darkBlue  ">What People Say About us</h3>
 <div className="border-2 ms-2 border-orangeRed rounded-md w-[40px] "></div>
 
 </div>
@@ -53,7 +53,7 @@ const Carouselitem=()=>{
                             
                        
 
-                            <img src={testimonials.photo} alt="vita" className="mt-4 w-[100px] w-[100px]  p-2 rounded-[100%] border-2 bg-darkBlue shadow-md   " />
+                            <img src={testimonials.photo} alt="vita" className="mt-4 w-[100px] w-[100px]  p-2 rounded-[100%] border-2 bg-white-600 shadow-md   " />
                             <div className="flex flex-col justify-start ps-3  ">
                                
                                 <p className="text-l font-bold text-greyBlack  pt-4 ">

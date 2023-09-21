@@ -12,7 +12,8 @@ import Contact from './Components/contact';
 import Faq from './Components/faq';
 import Failurepage from './Components/failure';
 import { Routes, Route } from "react-router-dom"
-
+import Ourstory from './Components/ourhistory';
+import ScrollTop from './Components/scroll';
 
 function App() {
  
@@ -33,7 +34,7 @@ function App() {
   return (
     <div className="App  ">
 
-{loading ? <div className='load bg-darkBlue
+{loading ? <div className='load bg-gray-700
     flex  flex-col justify-center items-center h-[100vh] '
        >
 
@@ -52,10 +53,11 @@ function App() {
       <Route path='/team' element={<Team />} />
       <Route path='/faq' element={<Faq />} />
       <Route path='/realtors' element={<Realtors />} />
+      <Route path='/ourhistory' element={<Ourstory />} />
       <Route path='/*' element={<Failurepage  />} />
       
    </Routes> 
-
+<ScrollTop/>
    <Footer /></>
   }
   </div>

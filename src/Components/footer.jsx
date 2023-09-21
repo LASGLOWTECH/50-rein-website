@@ -52,7 +52,7 @@ const Footer = () => {
     const [newDay] = useState(today)
   return (
 
-    <div className=" bg-darkBlue py-12 Footer-items">
+    <div className=" bg-gray-900 rounded-tl-[30px] rounded-tr-[30px] py-20 Footer-items">
       <div className="container  px-2 mx-auto">
         <div className="grid  gap-5 grid-cols-1 justify-evenly   md:grid-cols-4">
 
@@ -95,10 +95,10 @@ const Footer = () => {
           <div className="footer-items 
       w-100 flex justify-left md:ms-10 flex-col ">
 
-            <h4 className='   text-base pb-2  text-left  text-orangeRed font-bold md:text-xl '>Quick Links </h4>
+            <h4 className='   text-base pb-2  text-left  text-lightBlue font-bold md:text-xl '>Quick Links </h4>
             <p className="text-base  hover:text-orangeRed text-gray-200 py-2"><Link to="/About">About us </Link> </p>
             <p className="text-base hover:text-orangeRed  text-gray-200 py-2"><Link to="/services">Services</Link> </p>
-            <p className="text-base  hover:text-orangeRed text-gray-200 py-2"><Link to="/realtors">Iconic Estates</Link> </p>
+            <p className="text-base  hover:text-orangeRed text-gray-200 py-2"><Link to="/realtors">Icons</Link> </p>
             <p className="text-base  hover:text-orangeRed text-gray-200 py-2"><Link to="/contact">Team</Link> </p>
 
           </div>
@@ -108,7 +108,7 @@ const Footer = () => {
           <div className="footer-items flex 
   flex-col ">
 
-            <h4 className='   text-base pb-2  text-left  text-orangeRed font-bold md:text-xl '>Pages</h4>
+            <h4 className='   text-base pb-2  text-left  text-lightBlue  font-bold md:text-xl '>Pages</h4>
             <p className="text-base  text-left text-gray-200 py-2"><Link to="/faq">FAQ</Link> </p>
 
 
@@ -117,7 +117,7 @@ const Footer = () => {
 
           <div className="footer-items 
         flex flex-col ">
-<h4 className='   text-base pb-2  text-left  text-orangeRed font-bold md:text-xl '>Subscribe to our newsletter</h4>
+<h4 className='   text-base pb-2  text-left  text-lightBlue  font-bold md:text-xl '>Subscribe to our newsletter</h4>
             
             <p className="text-base text-left text-gray-500 py-3">Get updates from us on our latest evennts</p>
             <form className="form" ref={form} onSubmit={sendEmail}>

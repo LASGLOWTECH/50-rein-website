@@ -61,7 +61,7 @@ const Contact = () => {
           <div className="border-2 ms-2 border-orangeRed rounded-md w-[50px] "></div>
 
         </div>
-        <p className="py-3 text-greyBlack   text-base text-center">Contact us for more info and  services </p>
+        <p className="py-3 text-greyBlack   text-[18px] text-center">Contact us for more info and  services </p>
 
 
         <div className="grid grid-cols-1 md:grid-cols-2 p-6 bg-cyanGreen ">
@@ -77,7 +77,7 @@ const Contact = () => {
 
           <div className="form">
 
-            <form className="  my-5 flex flex-col px-3 bg-darkBlue shadow-3xl " ref={form} onSubmit={sendEmail}>
+            <form className="  my-5 flex flex-col px-3 bg-gray-800 shadow-3xl " ref={form} onSubmit={sendEmail}>
               < h3 className=" font-bold  text-xl pt-5 text-white ">Enter your details here</h3>
 
               <p className=" text-base text-green-500 ps-5 py-2 text-gray-500">{result} </p>

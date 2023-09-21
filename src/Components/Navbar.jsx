@@ -90,6 +90,8 @@ const Navbar = () => {
                   <div className="dropItems  flex flex-col absolute  transition duration-500 ease-out  w-[150px]  mt-3 bg-white"  onClick={openItems}  onMouseLeave={openItems}>
                     <Link to="/About" className="text-base px-6  pt-2  hover:text-orangeRed  text-lightBlue font-medium ">About us
                     </Link>
+                    <Link to="/ourhistory" className="text-base px-6  pt-2  hover:text-orangeRed  text-lightBlue font-medium ">Our  History
+                    </Link>
 
                     {/* drop items sumheader */}
                     <span className="flex flex-row px-3 text-lightBlue  font-medium pt-2 justify-start items-center" onClick={openItems2}  >Our People
@@ -200,6 +202,8 @@ const Navbar = () => {
   {isOpen && (
     <div className="dropItems  flex flex-col   transition duration-500 ease-out  w-[150px]  mt-2 "  onClick={openItems}  onMouseLeave={openItems}>
       <Link to="/About" className="text-base  pt-2  hover:bg-orangeRed  text-white">About us
+      </Link>
+      <Link to="/ourhistory" className="text-base  pt-2  hover:bg-orangeRed  text-white">Our History
       </Link>
 
       {/* drop items sumheader */}
