@@ -119,7 +119,7 @@ const Footer = () => {
         flex flex-col ">
 <h4 className='   text-base pb-2  text-left  text-lightBlue  font-bold md:text-xl '>Subscribe to our newsletter</h4>
             
-            <p className="text-base text-left text-gray-500 py-3">Get updates from us on our latest evennts</p>
+            <p className="text-base text-left text-gray-500 py-3">Get updates from us on our latest events.</p>
             <form className="form" ref={form} onSubmit={sendEmail}>
 
 

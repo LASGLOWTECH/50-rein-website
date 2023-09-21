@@ -33,7 +33,7 @@ const Services = () => {
 
                         <div className="left py-2  " data-aos="slide-right">
 
-                            <h2 className="text-greyBlack font-bold pb-3 text-4xl"> What We Do
+                            <h2 className="text-greyBlack font-bold pb-6 text-4xl"> What We Do
                             </h2>
 
                             <p className="text-[18px]  border-orangeRed rounded-md border-l-2  text-greyBlack  ps-3  font-md pt-4  ">In a world where excellence is the standard, we rise above and beyond. Our mission is to transform your aspirations into reality, delivering unparalleled solutions that exceed expectations. With unwavering dedication and a commitment to innovation, we're here to guide you on your journey towards success. Explore our services and experience a new dimension of excellence today</p>
