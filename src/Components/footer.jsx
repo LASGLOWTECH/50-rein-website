@@ -52,9 +52,9 @@ const Footer = () => {
     const [newDay] = useState(today)
   return (
 
-    <div className=" bg-gray-900 rounded-tl-[30px] rounded-tr-[30px] py-20 Footer-items">
+    <div className=" bg-gray-800 px-4  py-20 Footer-items">
       <div className="container  px-2 mx-auto">
-        <div className="grid  gap-5 grid-cols-1 justify-evenly   md:grid-cols-4">
+        <div className="grid  gap-5 grid-cols-1 md:justify-evenly justify-center   md:grid-cols-4">
 
           <div className="footer-items flex flex-col ">
 
@@ -99,7 +99,7 @@ const Footer = () => {
             <p className="text-base  hover:text-orangeRed text-gray-200 py-2"><Link to="/About">About us </Link> </p>
             <p className="text-base hover:text-orangeRed  text-gray-200 py-2"><Link to="/services">Services</Link> </p>
             <p className="text-base  hover:text-orangeRed text-gray-200 py-2"><Link to="/realtors">Icons</Link> </p>
-            <p className="text-base  hover:text-orangeRed text-gray-200 py-2"><Link to="/contact">Team</Link> </p>
+            <p className="text-base  hover:text-orangeRed text-gray-200 py-2"><Link to="/Team">Team</Link> </p>
 
           </div>
 
@@ -123,10 +123,10 @@ const Footer = () => {
             <form className="form" ref={form} onSubmit={sendEmail}>
 
 
-            <div className="email-send flex  flex-row justify-betweenitems-center ">
+            <div className="email-send flex  flex-row justify-start items-center ">
              
-                <input type="Email" className="py-1  bg-cyanGreen ps-5 mt-2 w-[300px] h-[40px] text-base text-darkGrey rounded-md " name="user_email" required placeholder="Enter your email"></input>
-                <input type="submit" className=" hover:bg-lightBlue hover:text-white font-bold text-base flex place-self-start rounded-md  px-2 py-2 mt-2 mx-2 bg-orangeRed text-white" value="Send" />
+                <input type="Email" className="py-1  bg-cyanGreen ps-5 mt-2 w-[300px] h-[40px] text-base text-darkGrey rounded-tl-md rounded-bl-md " name="user_email" required placeholder="Enter your email"></input>
+                <input type="submit" className=" hover:bg-lightBlue hover:text-white font-bold text-base flex place-self-star   rounded-tr-md rounded-br-md  px-2 py-2 mt-2 bg-orangeRed text-white" value="Send" />
               </div>
               {result &&<p className="text-base text-left text-[green] py-3">{result}</p>}
 
@@ -138,7 +138,7 @@ const Footer = () => {
 <span className=" rounded-[100%]   my-5 me-2 text-white bg-orangeRed  text-2xl"><a href="https://twitter.com/50rein2023"><BsTwitter className="p-1" /></a></span>
 <span className="rounded-[100%] my-5  mx-2  text-white bg-orangeRed  text-2xl"><a href="https://www.facebook.com/50rein"><FaFacebookF className="p-1" /></a></span>
 <span className=" rounded-[100%] my-5 mx-2 text-white  bg-orangeRed text-2xl"><a href="https://instagram.com/50rein/"><FaInstagram className="p-1" /></a></span>
-<span className=" rounded-[100%] my-5 mx-2 text-white  bg-orangeRed text-2xl"><a href="https://linkedin.com/mwlite/in/nicholason-ugwuanyi-214428153"><BsLinkedin className="p-1" /></a></span>
+<span className=" rounded-[100%] my-5 mx-2 text-white  bg-orangeRed text-2xl"><a href="https://linkedin.com/company/feeds/posts/"><BsLinkedin className="p-1" /></a></span>
 
 </div>
 

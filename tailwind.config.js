@@ -3,7 +3,9 @@
 export default {
   content: [
     "./index.html",
+
     "./src/**/*.{js,ts,jsx,tsx}",
+    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {screens:{
     xs:'375px',
@@ -26,5 +28,5 @@ export default {
       'spin-slow':'spin 20s linear infinite',
     }
   },
-  plugins: [],
+  plugins: [require('flowbite/plugin')],
 }

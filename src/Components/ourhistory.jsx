@@ -23,28 +23,35 @@ const Ourstory  = () => {
 
 
         <>
-        
+        <div className="flex py-20 bg-gray-50 flex-col items-center h-[300px] justify-center ">
+
+
+<h3 className="text-4xl font-bold text-gray-600 ">Our History</h3>
+<div className="border-2 mt-2  border-orangeRed   mx-auto rounded-md w-[100px] "></div>
+
+</div>
+
         <div className="px-6 container mx-auto">
         <section className=" bg-white   flex  flex-col " >
             
-        <div className=" ">
-        <h2 className="text-darkBlue px-6 pt-20 font-bold text-4xl">Our History </h2>
-
-
-                <div className="border-2 ms-6 border-orangeRed rounded-md w-[50px] "></div>
-                <img src="/ourhistory.png" alt="vita" className="w-full -mt-2xl  md:-mt-[200px] rounded-tl-[30px] rounded-br-[30px]     " data-aos="slide-up" />
+        
 
 
 
+    
+                <img src="/ourhistory.png" alt="vita" className="w-full  md:-mt-[200px] rounded-tl-[30px] rounded-br-[30px]     " data-aos="slide-up" />
 
 
-            </div>
+
+
+
+        
             
             <div className="left px-4 pb-20  ">
             
                
 
-                <p className="text-[18px] text-greyBlack mt-[5px]  -mt-[150px]">
+                <p className="text-[18px] text-greyBlack  leading-normal md:-mt-[100px]">
                     In the dynamic world of real estate, our journey began with a stumble, but it transformed
                     into an unwavering quest for authenticity and dependability. Picture a group of young
                     individuals, brimming with enthusiasm and dreams of conquering the real estate realm. Eager

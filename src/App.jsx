@@ -34,13 +34,13 @@ function App() {
   return (
     <div className="App  ">
 
-{loading ? <div className='load bg-gray-700
+{loading ? <div className='load bg-gradient-to-r from-blue-50 to-white
     flex  flex-col justify-center items-center h-[100vh] '
        >
 
-        <img src='/50logo.png' className="load-img animate-pulse w-[300px]" alt='hem' ></img>
+        <img src='/50logo.png' className="load-img animate-pulse w-[400px]" alt='hem' ></img>
 
-        <p className=' text-white text-base font-light -mt-[120px]'>Real Estate Icons in Nigeria</p></div> :
+        </div> :
 <>
       <Navbar/>
    <Routes>

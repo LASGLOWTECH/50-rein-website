@@ -14,19 +14,61 @@ const Services = () => {
 
         <>
 
-        <section className="services-hero"></section>
-            <div className="flex pt-8 flex-row items-center mt-6 justify-center ">
+        
+        <div className="flex py-20 bg-gray-50 flex-col items-center h-[200px] justify-center ">
 
-                <div className="border-2 mr-2 border-orangeRed rounded-md w-[50px] "></div>
-                <h3 className="text-2xl font-bold text-darkBlue ">OUR<span className="text-orangeRed" > SERVICES</span></h3>
-                <div className="border-2 ms-2 border-orangeRed rounded-md w-[50px] "></div>
+
+<h3 className="text-4xl font-bold text-gray-600 ">Our Services</h3>
+<div className="border-2 mt-2  border-orangeRed   mx-auto rounded-md w-[100px] "></div>
+
+</div>
+
+
+
+
+
+
+
+<section className=" bg-gray-50 rounded-tr-[200px]">
+            <div className="  container py-6 mx-auto grid  gap-t-3  grid-cols-1    md:grid-cols-2 ">
+                <div className=" bg-white   rounded-bl-[50px] " data-aos="fade-out">
+                    <div className="left px-6 pt-6 md:pt-10 hover:scale-100 transition  duration-500  ">
+                            <h4 className="text-darkBlue  py-3 text-3xl md:text-left text-center font-bold">What We Do</h4>
+
+
+                        <p className="text-[18px]  text-center md:text-left pb-6 text-greyBlack leading-loose  font-md  ">
+                        In a world where excellence is the standard, we rise above and beyond. Our mission is to transform your aspirations into reality, delivering unparalleled solutions that exceed expectations. With unwavering dedication and a commitment to innovation, we're here to guide you on your journey towards success. 
+                        Explore our services and experience a new dimension of excellence today.  </p>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+                <div className="  ">
+                    <img src="/ourservices.jpg" alt="vita" className="w-full mt-4 md:mt-0 rounded-tr-[100px] " data-aos="slide-up" />
+
+
+
+
+
+                </div>
+
 
             </div>
-          
+
+
+        </section>
+
+
 
             {/* About Hero */}
             {/* bg-gradient-to-r from-lightBlue to-darkBlue  */}
-
+{/* 
             <div className="   py-4 w-100 " >
                 <div className=" container py-2 mx-auto px-6" >
                     <div className="   grid  gap-3 grid-cols-1    md:grid-cols-2 pt-4 items-center   ">
@@ -62,10 +104,10 @@ const Services = () => {
                 </div>
 
 
-            </div>
+            </div> */}
 
 
-<section/>
+
 
 
             <section className="">

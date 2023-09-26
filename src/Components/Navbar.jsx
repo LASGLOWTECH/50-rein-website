@@ -73,7 +73,7 @@ const Navbar = () => {
           </div>
 
           <div className="hidden LIinksmd md:flex pt-4 font-medium ms-32" >
-            <Link to="/" className="text-base px-4  hover:border-b-2 hover:rounded-l transition text-base  border-orangeRed  text-lightBlue font-bold">Home</Link>
+            <Link to="/" className="text-l px-4  hover:border-b-2 hover:rounded-l transition text-base  border-orangeRed  text-lightBlue font-bold">Home</Link>
 {/* drop items main header */}
             <div className="drophead text-base px-4   relative transition duration-500 ease-out border-orangeRed  text-lightBlue font-bold" >
 
@@ -87,10 +87,10 @@ const Navbar = () => {
               <div className=" flex flex-col"  >
 
                 {isOpen && (
-                  <div className="dropItems  flex flex-col absolute  transition duration-500 ease-out  w-[150px]  mt-3 bg-white"  onClick={openItems}  onMouseLeave={openItems}>
-                    <Link to="/About" className="text-base px-6  pt-2  hover:text-orangeRed  text-lightBlue font-medium ">About us
+                  <div className="dropItems  flex flex-col absolute  transition duration-500 ease-out  w-[150px]  mt-3 bg-white"  onClick={openItems}  >
+                    <Link to="/About" className="text-base px-3  pt-2  hover:text-orangeRed  text-lightBlue font-medium ">About us
                     </Link>
-                    <Link to="/ourhistory" className="text-base px-6  pt-2  hover:text-orangeRed  text-lightBlue font-medium ">Our  History
+                    <Link to="/ourhistory" className="text-base px-3 pt-2  hover:text-orangeRed  text-lightBlue font-medium ">Our  History
                     </Link>
 
                     {/* drop items sumheader */}
@@ -100,11 +100,9 @@ const Navbar = () => {
 
                     {isOpen2 && (
                       <div className=" flex flex-col bg-white">
-                        <Link to="/Team" className="text-base px-3  pt-2  hover:text-orangeRed  text-lightBlue font-medium">Our Team
+                        <Link to="/Team" className="text-base px-3  pt-2  hover:text-orangeRed  hover:text-orangeRed text-lightBlue font-medium">Our Team
                         </Link>
-                        < Link to="/About" className="text-base px-3  pt-2  hover:text-orangeRed  text-lightBlue font-medium">Testimonials
-                        </Link>
-                      </div>
+                       </div>
                     )}
 
                   </div>
@@ -140,10 +138,7 @@ const Navbar = () => {
     <div className="dropItems flex flex-col absolute  transition duration-500 ease-out  w-[150px]  mt-3 bg-white" onMouseLeave={openItems3} onClick={openItems3}>
       <Link to="/realtors" className="text-base px-3  pt-2  hover:text-orangeRed   text-lightBlue">Realtors
       </Link>
-      <Link to="/Team" className="text-base px-3   hover:text-orangeRed transition    text-lightBlue ">Photo gallery</Link>
-      <Link to="/Team" className="text-base px-3   hover:text-orangeRed transition    text-lightBlue ">Volunteer</Link>
-      <Link to="/Team" className="text-base px-3   hover:text-orangeRed transition    text-lightBlue ">Partners</Link>
-
+      
      
 
     </div>
@@ -161,7 +156,7 @@ const Navbar = () => {
 
 
           </div>
-          <Link to="/contact" className=" hidden text-base px-3 py-2 hover:bg-lightBlue rounded-md font-bold bg-orangeRed text-white md:flex ">
+          <Link to="/contact" className=" hidden text-base px-3 py-2 hover:bg-lightBlue rounded-3xl font-bold bg-orangeRed text-white md:flex ">
             <button className=" ">Contact us</button> </Link>
 
           {/* CONTROLS */}
@@ -191,7 +186,7 @@ const Navbar = () => {
           <div className="drophead text-base   relative transition-all duration-500 ease-out   text-white " >
 
 
-<span className="flex flex-row justify-start cursor items-center"  onClick={openItems}>Who we are
+<span className="flex flex-row justify-start cursor items-center"  onClick={openItems}>Who We Are
 
   {!isOpen ? (<IoMdArrowDropdown className="text-orangeRed text-base" />) :
     (<IoMdArrowDropup className="text-orangeRed text-base" />)
@@ -215,8 +210,7 @@ const Navbar = () => {
         <div className=" flex flex-col " onClick={handleClose} >
           <Link to="/Team" className="text-base   pt-2  hover:text-orangeRed  text-white">Our Team
           </Link>
-          < Link to="/About" className="text-base  pt-2  hover:text-orangeRed  text-white">Testimonials
-          </Link>
+          
         </div>
       )}
 
@@ -234,12 +228,12 @@ const Navbar = () => {
 
 
 
-          <Link to="/services" className="text-base   hover:text-orangeRed  text-white"> What we do</Link>
+          <Link to="/services" className="text-base   hover:text-orangeRed  text-white"> What We Do</Link>
 
        
 
           <Link to="/realtors" className="text-base   hover:text-orangeRed  text-white">Estate Icons </Link>
-          <Link to="/team" className="text-base  hover:text-orangeRed  text-white"> Gallery</Link>
+        
 
 
           <Link to="/contact" className="text-base   hover:text-orangeRed  text-white"> Contact</Link>
