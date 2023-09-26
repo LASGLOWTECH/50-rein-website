@@ -54,7 +54,7 @@ const About = () => {
                             profile, we aim to inspire, educate, and honor the individuals who’ve carved their names into
                             the annals of Nigerian real estate history.</p>
 
-                        <Link to="/faq" className="  text-l 
+                        <Link to="/ourhistory" className="  text-l 
 px-3 py-3 rounded-3xl  bg-orangeRed text-white hover:bg-lightBlue  ">
                             <button className=" text-xl">know more</button> </Link>
 
