@@ -26,7 +26,7 @@ const About = () => {
     return (<>
 
         {/* Hheader test */}
-        <div className="flex py-20 bg-gray-50 flex-col items-center h-[300px] justify-center ">
+        <div className="flex py-20 Hero2 flex-col items-center h-[300px] justify-center ">
 
 
             <h3 className="text-4xl font-bold text-gray-600 ">About Us</h3>
@@ -54,8 +54,8 @@ const About = () => {
                             profile, we aim to inspire, educate, and honor the individuals who’ve carved their names into
                             the annals of Nigerian real estate history.</p>
 
-                        <Link to="/ourhistory" className="  text-l 
-px-3 py-3 rounded-3xl  bg-orangeRed text-white hover:bg-lightBlue  ">
+                        <Link to="/ourhistory" className="  text-l mx-[35%]
+ md:mx-[0] px-3 py-3 rounded-3xl  bg-orangeRed text-white hover:bg-lightBlue  ">
                             <button className=" text-xl">know more</button> </Link>
 
                     </div>
@@ -63,10 +63,10 @@ px-3 py-3 rounded-3xl  bg-orangeRed text-white hover:bg-lightBlue  ">
                     {/* rounded square */}
                     <div className="  flex items-center justify-center  my-20">
 
-                        <div className="bg-orangeRed  rounded-br-[30px]  rounded-tl-[30px]   "  data-aos="slide-up">
+                        <div className="bg-orangeRed  rounded-[30px]  "  data-aos="slide-up">
 
 
-                            <img src="/aboutus.jpg" alt="vita" className=" rounded-tl-[30px]   rounded-br-[30px] w-full  h-auto pl-3 pt-3 " />
+                            <img src="/aboutus.jpg" alt="vita" className="  rounded-[30px] w-full  h-auto pl-3 pt-3 " />
 
                         </div>
 
@@ -93,9 +93,9 @@ px-3 py-3 rounded-3xl  bg-orangeRed text-white hover:bg-lightBlue  ">
 
 
 
-        <section className=" bg-gray-50 rounded-tr-[200px]">
+        <section className=" Hero2 ">
             <div className="  container py-6 mx-auto grid  gap-t-3  grid-cols-1    md:grid-cols-2 ">
-                <div className=" bg-white   rounded-bl-[50px] " data-aos="fade-out">
+                <div className="  rounded-bl-[50px] " data-aos="fade-out">
                     <div className="left px-6 pt-6 md:pt-10 hover:scale-100 transition  duration-500  ">
                         <span className="flex flex-col items-center justify-center md:items-start md:justify-start "><GoGoal className="text-6xl my-3 font-bold text-orangeRed " />
                             <h4 className="text-darkBlue  py-3 text-3xl  font-medium">Our Goals</h4></span>
@@ -138,7 +138,7 @@ px-3 py-3 rounded-3xl  bg-orangeRed text-white hover:bg-lightBlue  ">
 
 
 
-        <section className=" bg-yellow-50 rounded-tl-[200px]">
+        <section className=" Hero rounded-tl-[200px]">
             <div className="  container py-6 mx-auto grid  gap-t-3  grid-cols-1    md:grid-cols-2 ">
                 <div className=" bg-white   rounded-bl-[50px] " data-aos="fade-out">
                     <div className="left px-6 pt-6 md:pt-10 hover:scale-100 transition  duration-500  ">
@@ -186,7 +186,7 @@ px-3 py-3 rounded-3xl  bg-orangeRed text-white hover:bg-lightBlue  ">
 
 
 
-        <section className=" bg-blue-50 rounded-tl-[200px]">
+        <section className=" ">
             <div className="  container py-6 mx-auto grid  gap-t-3  grid-cols-1    md:grid-cols-2 ">
                 <div className=" bg-white   rounded-bl-[50px] " data-aos="fade-out">
                     <div className="left px-6 pt-6 md:pt-10 hover:scale-100 transition  duration-500  ">
@@ -209,7 +209,7 @@ px-3 py-3 rounded-3xl  bg-orangeRed text-white hover:bg-lightBlue  ">
                 </div>
 
 
-                <div className="  ">
+                <div className=" bg-blue-50 ">
                     <img src="/ourmission.jpg" alt="vita" className="w-full mt-4 md:mt-0 rounded-tr-[100px] " data-aos="slide-up" />
 
 

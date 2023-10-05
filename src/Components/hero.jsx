@@ -302,7 +302,7 @@ const Home = () => {
         <div className="container mx-auto">
 
           <div className=" grid grid-cols-1 md:grid-cols-2 items-center place-items-center  pt-6 " >
-            <div className="pt-6 bg-white  rounded-[50px] " data-aos="slide-down">
+            <div className="pt-6 bg-white  rounded-[50px] " data-aos="slide-in">
               <img src="/homevector.jpg" alt="vita" className="w-full  border-3 md:w-[600px]     rounded-[50px] h-auto " />
 
 

@@ -15,7 +15,7 @@ const Services = () => {
         <>
 
         
-        <div className="flex py-20 bg-gray-50 flex-col items-center h-[200px] justify-center ">
+        <div className="flex py-20 Hero flex-col items-center h-[200px] justify-center ">
 
 
 <h3 className="text-4xl font-bold text-gray-600 ">Our Services</h3>
@@ -29,7 +29,7 @@ const Services = () => {
 
 
 
-<section className=" bg-gray-50 rounded-tr-[200px]">
+<section className=" bg-gray-50 ">
             <div className="  container py-6 mx-auto grid  gap-t-3  grid-cols-1    md:grid-cols-2 ">
                 <div className=" bg-white   rounded-bl-[50px] " data-aos="fade-out">
                     <div className="left px-6 pt-6 md:pt-10 hover:scale-100 transition  duration-500  ">
@@ -122,7 +122,7 @@ const Services = () => {
                                         <h4 className="text-darkBlue text-l ps-3 font-bold">{items.Title}</h4></span>
 
 
-                                    <p className=" text-greyBlack text-[18px] text-center text-truncate font-md pt-6 md:text-left">{items.Info}
+                                    <p className=" text-greyBlack text-[18px] text-center text-truncate font-md pt-6  leading-loose  md:text-left">{items.Info}
                                     </p>
 
 

@@ -41,7 +41,7 @@ setItemsOpen(index)
 <div className="border-2 ms-2 border-orangeRed rounded-md w-[50px] "></div>
 
 </div>
-<h2 className=" pt-2 text-greyBlack text-3xl px-4 font-bold mx-auto text-center">Frequenly Asked Questions</h2>
+<h2 className=" pt-2 mt-6 text-greyBlack text-3xl px-4 font-bold mx-auto text-center">Frequenly Asked Questions</h2>
 
 
 
@@ -52,15 +52,15 @@ setItemsOpen(index)
         <div className=" bg-white flex flex-col " key={index} data-aos="flip-right">
 
         <span className=" header flex flex-row justify-between px-6 py-3 border-l-3 bg-white shadow-lg text-white cursor items-center" onClick={() => handleClick(index)} >
-            <p className="text-darkBlue  hover:text-orangeRed text-base">{faqlist.question}</p> 
+            <p className="text-darkBlue  hover:text-orangeRed text-xl  font-medium ">{faqlist.question}</p> 
 
-            {itemsOpen ==index ? (<BiMinus className="text-white  bg-lightBlue rounded-[100%] " />) :
-                (<BiPlus className="text-white bg-orangeRed rounded-[100%]" />)
+            {itemsOpen ==index ? (<BiMinus className="text-white  text-l bg-lightBlue rounded-[100%] " />) :
+                (<BiPlus className="text-white text-l bg-orangeRed rounded-[100%]" />)
             }</span>
 
             {itemsOpen === index ? (
         <div className=" bg-white px-3 py-3 ">
-            <p className="text-darkBlue"> {faqlist.Answer} </p>
+            <p className="text-darkBlue leading-loose"> {faqlist.Answer} </p>
         </div>): null}
 
     </div>
