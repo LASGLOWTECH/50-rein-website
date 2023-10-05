@@ -29,9 +29,7 @@ const Carouselitem=()=>{
         <div className='mx-auto container '>
         <div className="flex py-2 mb-3 px-2 flex-row items-center justify-center ">
 
-<div className="border-2   mr-2 border-orangeRed rounded-md w-[40px] "></div>
-<h3 className="text-xl font-bold text-darkBlue  ">What People Say About us</h3>
-<div className="border-2 ms-2 border-orangeRed rounded-md w-[40px] "></div>
+
 
 </div>
         <Carousel responsive= {responsive}
@@ -47,7 +45,7 @@ const Carouselitem=()=>{
 
   return(
 <div className="py-6 px-3 bg-white hover:bg-green-50  tansition duration-200 ease-in shadow-lg" key={index}>
-<p className="text-base text-center md:text-start text-greyBlack  pb-4 ">
+<p className="text-l text-center md:text-start text-greyBlack  pb-4 ">
                                 {testimonials.text} </p>
                             <div className="flex flex-row justify-start hover-blue-400 ">
                             
