@@ -25,13 +25,9 @@ const Carouselitem=()=>{
 
     return(
         <>
-        <section className='bg-white '>
+        <section className='mypolygon py-6'>
         <div className='mx-auto container '>
-        <div className="flex py-2 mb-3 px-2 flex-row items-center justify-center ">
-
-
-
-</div>
+        
         <Carousel responsive= {responsive}
          transitionDuration={1000}
          containerClass="carousel-container"
@@ -44,22 +40,25 @@ const Carouselitem=()=>{
 {Team1.map((testimonials, index)=>{
 
   return(
-<div className="py-6 px-3 bg-white hover:bg-green-50  tansition duration-200 ease-in shadow-lg" key={index}>
-<p className="text-l text-center md:text-start text-greyBlack  leading-loose pb-4 ">
-                                {testimonials.text} </p>
-                            <div className="flex flex-row justify-start hover-blue-400 ">
-                            
-                       
+<div className="py-6 px-3 hover:bg-green-50 flex  rounded-[30px] ms-3 tansition duration-200 ease-in shadow-lg" key={index}>
 
-                            <img src={testimonials.photo} alt="vita" className="mt-4 w-[100px] w-[100px]  p-2 rounded-[100%] border-2 bg-white-600 shadow-md   " />
-                            <div className="flex flex-col justify-start ps-3  ">
+                            <div className="flex mx-auto  flex-col py-3 items-center justify-center hover-blue-400 ">
+                            
+                       <div className=''>
+
+
+                       <img src={testimonials.photo} alt="vita" className="mt-4 w-[150px]   p-2 rounded-[100%] border-2 bg-white-600 shadow-md   " />
+                    
+                       </div>
+
+                                   <div className="flex flex-col  items-center  justify-center ps-3  ">
                                
-                                <p className="text-l font-bold text-greyBlack  pt-4 ">
+                                <p className="text-2xl text-center font-bold text-greyBlack  pt-4 ">
                                    { testimonials.Name } </p>
-                                <p className="text-base  text-greyBlack  font-thin ">
+                                <p className="text-base text-center py-2 text-greyBlack  font-thin ">
                                 { testimonials.Position} </p>
 
-                                <div className='flex mt-3 flex-row justify-start'>
+                                <div className='flex mt-3 flex-row justify-center'>
                               <BiSolidStar className='text-orangeRed text-base'/>
                               <BiSolidStar className='text-orangeRed text-base'/>
                               <BiSolidStar className='text-orangeRed text-base'/>
@@ -67,6 +66,9 @@ const Carouselitem=()=>{
                               <BiSolidStar className='text-orangeRed text-base'/>
                             
                               </div>
+
+                              <p className="text-l text-center text-greyBlack  leading-loose pt-6 ">
+                                {testimonials.text} </p>
                                     </div> 
                             </div>
 

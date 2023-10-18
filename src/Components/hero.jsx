@@ -76,7 +76,7 @@ const Home = () => {
 
           <div className="   rounded-md " data-aos="zoom-in-up">
             <div className="left px-2 pb-2  ">
-              <h3 className="text-darkBlue pt-10 place-item-center   px-3 text-center md:text-left font-medium text-5xl">An Ideation </h3>
+              <h3 className="text-darkBlue pt-10 place-item-center    text-center md:text-left font-medium text-5xl">An Ideation </h3>
 
 
               <p className="text-[18px] text-center md:text-left leading-loose text-greyBlack   text-truncate font-md  pt-6 pb-10 leading-8">
@@ -141,7 +141,7 @@ const Home = () => {
             </div>
 
             <div className="left px-4 py-10 -50 rounded-tl-[50px]    md:-mt-[0px]  rounded-circle ">
-              <h3 className="text-darkBlue pt-16 place-item-center   px-3 text-center md:text-left font-medium text-5xl">A Strive to Inspire Future Leaders</h3>
+              <h3 className="text-darkBlue pt-16 place-item-center   px-3 text-center md:text-left font-medium  text-4xl md:text-5xl">A Strive to Inspire Future Leaders</h3>
 
 
               <p className="text-[18px]   leading-loose text-greyBlack   text-truncate font-md  pb-8 md: pt-10 leading-8 ">
@@ -218,7 +218,7 @@ const Home = () => {
 
             <div className="left px-4 py-10  md:-mt-[30px]   " data-aos="slide-right">
 
-              <h3 className="text-darkBlue py-10 md:py-2 px-1 text-center  md:text-left font-medium text-5xl">A Journey of Resilience and Vision </h3>
+              <h3 className="text-darkBlue py-10 md:py-2 px-1 text-4xl text-center  md:text-left font-medium md:text-5xl">A Journey of Resilience and Vision </h3>
 
 
               <p className="text-[18px]  mb-8 leading-loose text-greyBlack   text-truncate font-md  pb-4 md:pt-10 leading-8 ">
@@ -301,10 +301,10 @@ const Home = () => {
 
             <div className="left px-4 py-10  md:-mt-[30px]   " data-aos="slide-up">
 
-              <h3 className="text-darkBlue py-10 md:py-2 text-center  md:text-left font-medium text-5xl"> Remarkable Journey of Iconic Real Estate Founders</h3>
+              <h3 className="text-darkBlue py-10 md:py-2 text-center  md:text-left font-medium md:text-4xl text-4xl"> Remarkable Journey of Iconic Real Estate Founders</h3>
 
 
-              <p className="text-[18px]  text-center  leading-loose text-greyBlack   text-truncate font-md  pb-4 md:pt-10 leading-8 ">
+              <p className="text-[18px]  text-center  md:text-left leading-loose text-greyBlack   text-truncate font-md  pb-4 md:py-10 leading-8 ">
                 Our goal is to commemorate the remarkable journey of iconic real estate founders in an inspiring anthology. We aim to ensure that iconic
                 founders and CEOs in real estate are brought to light.
 
@@ -358,11 +358,12 @@ px-4 py-3 mt-10 rounded-3xl bg-orangeRed text-white hover:bg-lightBlue  ">
 
       <div className="border-2 mt-2 mb-6  border-orangeRed  mx-auto rounded-md w-[100px] " data-aos="slide-right"></div>
 
-      <h3 className="text-darkBlue py-10 md:py-2 px-1 text-center my font-medium text-4xl">What People Say About Us</h3>
+      <h3 className="text-darkBlue py-10 md:py-2 px-1 text-center my font-medium text-3xl">What People Say About Us</h3>
 
 
 
-      <div className="mt-2">
+
+      <div className="mt-2 ">
         <Carouselitem />
       </div>
 

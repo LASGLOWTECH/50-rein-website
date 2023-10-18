@@ -15,9 +15,9 @@ export default {
     xl:'1440px'
   },
 
-  clipPath:{
-   myclips:" ellipse(50px 60px at 0 10% 20%)"
-  },
+  clipPath: {
+    mypolygon: "polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 1rem))",
+},
     extend: {
       colors:{
         darkBlue:'#0B3C46',
