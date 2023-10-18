@@ -51,15 +51,15 @@ setItemsOpen(index)
     return (
         <div className=" bg-white flex flex-col " key={index} data-aos="flip-right">
 
-        <span className=" header flex flex-row justify-between px-6 py-3 border-l-3 bg-white shadow-lg text-white cursor items-center" onClick={() => handleClick(index)} >
-            <p className="text-darkBlue  hover:text-orangeRed text-xl  font-medium ">{faqlist.question}</p> 
+        <span className=" header flex flex-row justify-between px-6 md:px-6 py-3 border-l-3 bg-white shadow-lg text-white cursor items-center" onClick={() => handleClick(index)} >
+            <p className="text-darkBlue  hover:text-orangeRed text-base md:text-[18px]  font-medium ">{faqlist.question}</p> 
 
             {itemsOpen ==index ? (<BiMinus className="text-white  text-l bg-lightBlue rounded-[100%] " />) :
                 (<BiPlus className="text-white text-l bg-orangeRed rounded-[100%]" />)
             }</span>
 
             {itemsOpen === index ? (
-        <div className=" bg-white px-3 py-3 ">
+        <div className=" bg-white px-6 py-3 ">
             <p className="text-darkBlue leading-loose"> {faqlist.Answer} </p>
         </div>): null}
 

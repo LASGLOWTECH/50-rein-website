@@ -52,7 +52,7 @@ const Footer = () => {
     const [newDay] = useState(today)
   return (
 
-    <div className=" bg-gray-800 px-4  py-20 Footer-items">
+    <div className=" bg-gradient-to-r from-darkBlue to-darkBlue px-4  py-20 Footer-items">
       <div className="container  px-2 mx-auto">
         <div className="grid  gap-5 grid-cols-1 md:justify-evenly justify-center   md:grid-cols-4">
 

@@ -8,6 +8,14 @@ import Faq from "./faq";
 
 
 const Home = () => {
+  const AboutSlides = {
+    backgroundImage: `url(/ourvision.jpg)`,
+    
+        backgroundPosition: "center",
+        height: "100vh",
+        backgroundSize: "cover",
+        clipPath: "ellipse(100% 40% at 50% 40%)",
+        backgroundRepeat: "no-repeat"}
 
 
   useEffect(() => {
@@ -61,11 +69,11 @@ const Home = () => {
 
 
 
-      <section className=" clip-path-myclips bg-darkerBlue py-6 ">
+      <section className=" mypolygon bg-gradient-to-r from-darkBlue to-darkestBlue py-6 mt-20 ">
 
 
 <div className="container mt-20  mx-auto">
-        <h3 className="text-darkBlue text-3xl text-center ">Who we are</h3>
+        <h3 className="text-white text-3xl text-center ">Who we are</h3>
 
 
         <div className="border-2 mt-2  border-orangeRed  mx-auto rounded-md w-[100px] " data-aos="slide-right"></div>
@@ -76,10 +84,10 @@ const Home = () => {
 
           <div className="   rounded-md " data-aos="zoom-in-up">
             <div className="left px-2 pb-2  ">
-              <h3 className="text-darkBlue pt-10 place-item-center    text-center md:text-left font-medium text-5xl">An Ideation </h3>
+              <h3 className="text-orangeRed  pt-10 place-item-center    text-center md:text-left font-medium text-5xl">An Ideation </h3>
 
 
-              <p className="text-[18px] text-center md:text-left leading-loose text-greyBlack   text-truncate font-md  pt-6 pb-10 leading-8">
+              <p className="text-[18px] text-center md:text-left leading-loose text-white   text-truncate font-md  pt-6 pb-10 leading-8">
                 50 REIN is an ideation with it’s core values and mandate encompass in amplifying the
                 real estate industry in Nigeria and projecting Nigeria real estate Icons to the world hence celebrating their unique heritage in professionalism,
                 integrity, consistency, morals and delivery of values.  </p>
@@ -99,7 +107,7 @@ const Home = () => {
 
 
 
-          <div className=" mt-4 md:mt-10  bg-blue-100  rounded-[50px] " data-aos="zoom-in-up">
+          <div className=" mt-4 md:mt-10   rounded-br-[50px]  rounded-tl-[50px] " data-aos="zoom-in-up">
             <img src="/homeabout.png" alt="vita" className="   h-auto " />
 
 
@@ -358,7 +366,7 @@ px-4 py-3 mt-10 rounded-3xl bg-orangeRed text-white hover:bg-lightBlue  ">
 
       <div className="border-2 mt-2 mb-6  border-orangeRed  mx-auto rounded-md w-[100px] " data-aos="slide-right"></div>
 
-      <h3 className="text-darkBlue py-10 md:py-2 px-1 text-center my font-medium text-3xl">What People Say About Us</h3>
+      <h3 className="text-darkBlue pt-2 pb-6   md:py-2 px-1 text-center my font-medium text-2xl md:text-3xl">What People Say About Us</h3>
 
 
 

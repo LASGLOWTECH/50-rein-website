@@ -71,7 +71,7 @@ z-index: -99;
 
 
 
-.Hero2{background-image: url('/wave5.svg');
+.Hero2{background-image:url('/wave5.svg');
   
 
   background-repeat: no-repeat;
@@ -79,6 +79,14 @@ z-index: -99;
 background-position: -20 40px
 }
 
+.mypolygon{
+  background-position: center;
+  height: auto;
+  background-size: cover;
+  
+  clip-path:ellipse(100% 50% at 50% 50%);
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
 
-    
+}
       

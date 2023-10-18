@@ -25,7 +25,7 @@ const Carouselitem=()=>{
 
     return(
         <>
-        <section className='mypolygon py-6'>
+        <section className='mypolygon  bg-gradient-to-r from-darkBlue to-darkestBlue py-6'>
         <div className='mx-auto container '>
         
         <Carousel responsive= {responsive}
@@ -40,22 +40,22 @@ const Carouselitem=()=>{
 {Team1.map((testimonials, index)=>{
 
   return(
-<div className="py-6 px-3 hover:bg-green-50 flex  rounded-[30px] ms-3 tansition duration-200 ease-in shadow-lg" key={index}>
+<div className="py-6 px-3  flex  rounded-[30px] ms-3 tansition duration-200 ease-in shadow-medium" key={index}>
 
                             <div className="flex mx-auto  flex-col py-3 items-center justify-center hover-blue-400 ">
                             
-                       <div className=''>
+                       <div className=' '>
 
 
-                       <img src={testimonials.photo} alt="vita" className="mt-4 w-[150px]   p-2 rounded-[100%] border-2 bg-white-600 shadow-md   " />
+                       <img src={testimonials.photo} alt="vita" className="mt-4 w-[150px]  bg-white p-2 rounded-[100%] border-2 bg-white-600 shadow-md   " />
                     
                        </div>
 
                                    <div className="flex flex-col  items-center  justify-center ps-3  ">
                                
-                                <p className="text-2xl text-center font-bold text-greyBlack  pt-4 ">
+                                <p className="text-2xl text-center font-bold text-white  pt-4 ">
                                    { testimonials.Name } </p>
-                                <p className="text-base text-center py-2 text-greyBlack  font-thin ">
+                                <p className="text-base text-center py-2 text-white  font-thin ">
                                 { testimonials.Position} </p>
 
                                 <div className='flex mt-3 flex-row justify-center'>
@@ -67,7 +67,7 @@ const Carouselitem=()=>{
                             
                               </div>
 
-                              <p className="text-l text-center text-greyBlack  leading-loose pt-6 ">
+                              <p className="text-l text-center text-white  leading-loose pt-6 ">
                                 {testimonials.text} </p>
                                     </div> 
                             </div>

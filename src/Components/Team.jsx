@@ -20,23 +20,9 @@ const Team = () => {
 
 
     return (<>
-        {/* <div className="Team  mt-8  pb-5" data-aos="slide-down">
-            <div className="flex pt-10 flex-row items-center justify-center ">
+       
 
-                <div className="border-2  mr-2 border-orangeRed rounded-md w-[50px] "></div>
-                <h3 className="text-2xl font-bold text-darkBlue ">OUR<span className="text-orangeRed" > TEAM</span></h3>
-                <div className="border-2 ms-2 border-orangeRed rounded-md w-[50px] "></div>
-
-            </div>
-            <p className=" container pb-8 pt-3 px-3 text-greyBlack px-1 mx-auto   text-[18px] text-center">Meet the orchestrators behind 50 REIN. A symphony of passion, dedication, and expertise.
-                We are more than individuals; we are a collective of dreamers, united by a shared mission to
-                honor excellence. Each member contributes a distinct note to our melody, crafting a
-                harmonious symphony of celebration.</p>
-
-
-        </div> */}
-
-<div className="flex mt-20 bg-white flex-col items-center h-[300px] justify-center ">
+<div className="flex mt-20 bg-white  flex-col items-center h-[300px] justify-center ">
 
 
 <h3 className="text-4xl pt-6 font-bold text-gray-600  ">Our Team</h3>
@@ -52,14 +38,14 @@ const Team = () => {
 
 
 
-        <section className=" bg-gray-50 ">
-            <div className="  container py-4 mx-auto grid  gap-3 grid-cols-1    md:grid-cols-3 ">
+        <section className="  bg-gradient-to-r from-gray-50  to-gray-50">
+            <div className="  container py-10 mx-auto grid  gap-3 grid-cols-1    md:grid-cols-3 ">
 
                 {/* first grid item */}
 
                 {Team1.map((team, index)=>{
     return(
-        <div className=" shadow-md px-4 hover:scale-110  hover:bg-blue-50 transition bg-white duration-500 " data-aos="zoom-in-up" key={index}>
+        <div className=" shadow-md px-4 hover:scale-110  hover:bg-blue-50 transition   rounded-tl-[30px] rounded-br-[30px] bg-white duration-500 " data-aos="zoom-in-up" key={index}>
         <div className=" py-6  ">
             <img src={team.photo} alt="vita" className="w-[150px] h-[150px] mx-auto p-2 rounded-[100%] border-2 bg-white shadow-md   " />
 
