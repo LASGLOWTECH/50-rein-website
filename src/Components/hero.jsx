@@ -61,10 +61,10 @@ const Home = () => {
 
 
 
-      <section className=" container mt-20  mx-auto ">
+      <section className=" clip-path-myclips bg-darkerBlue py-6 ">
 
 
-
+<div className="container mt-20  mx-auto">
         <h3 className="text-darkBlue text-3xl text-center ">Who we are</h3>
 
 
@@ -99,7 +99,7 @@ const Home = () => {
 
 
 
-          <div className=" mt-4 md:mt-10  bg-blue-50  rounded-[50px] " data-aos="zoom-in-up">
+          <div className=" mt-4 md:mt-10  bg-blue-100  rounded-[50px] " data-aos="zoom-in-up">
             <img src="/homeabout.png" alt="vita" className="   h-auto " />
 
 
@@ -108,18 +108,8 @@ const Home = () => {
           </div>
 
 
-
-
-
-
-
-
-
-
-
-
         </div>
-
+</div>
 
       </section>
 
