@@ -2,7 +2,7 @@ const Service = [
 
     {
         Title: " CHRONICLING ICONS",
-        Info: " At 50 REIN, we are dedicated to the art of storytelling. We delve deep into the lives and accomplishments of Nigerian Real Estate Icons, crafting narratives that breathe life into their journeys. Through vivid profiles and insightful anecdotes, we bring their stories to the forefront, chronicling their rise to becoming industry icons in a compendium. With each profile, we aim to inspire, educate, and honor the individuals who’ve carved their names into the annals of Nigerian real estate history"
+        Info: " At 50 REIN, we are dedicated to the art of storytelling. We delve deep into the lives and accomplishments of Nigerian Real Estate Icons, crafting narratives that breathe life into their journeys. Through vivid profiles and insightful anecdotes, we bring their stories to the forefront, chronicling their rise to becoming industry icons in a compendium. With each profile, we aim to inspire, educate, and honor the individuals who’ve carved their names into the annals of Nigerian real estate history."
 ,   
 pics:"/CHRONICLES.png"
     },
@@ -30,7 +30,7 @@ pics:"/bridge.png"
 
     {
         Title: "BUILDING BEYOND BRICKS",
-        Info: " Real estate is not just about bricks and mortar; it’s about vision, leadership, and community impact. Our platform goes beyond the physical structures to exploring the intangible qualities that define these icons. By delving into their philanthropic endeavors, leadership impacts, and commitment to sustainable growth, we unveil the holistic impact they are made of"
+        Info: " Real estate is not just about bricks and mortar; it’s about vision, leadership, and community impact. Our platform goes beyond the physical structures to exploring the intangible qualities that define these icons. By delving into their philanthropic endeavors, leadership impacts, and commitment to sustainable growth, we unveil the holistic impact they are made of."
 ,   
 pics:"/buildings.png"
     },
@@ -38,7 +38,7 @@ pics:"/buildings.png"
 
     {
         Title: "INNOVATIONS EXPEDITIONS",
-        Info: " Innovation isimpactrstone of progress, and at 50 REIN, we embark on expeditions to uncover groundbreaking practices within the real estate industry. Through in-depth analyses, case studies, and interviews, we shed light on the innovative strategies these icons have employed to achieve remarkable success. Join us as we explore the frontiers of real estate innovation"
+        Info: " Innovation isimpactrstone of progress, and at 50 REIN, we embark on expeditions to uncover groundbreaking practices within the real estate industry. Through in-depth analyses, case studies, and interviews, we shed light on the innovative strategies these icons have employed to achieve remarkable success. Join us as we explore the frontiers of real estate innovation."
 ,   
 pics:"/innovate.png"
     },
