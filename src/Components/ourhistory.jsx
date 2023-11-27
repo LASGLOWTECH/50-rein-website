@@ -39,7 +39,7 @@ const Ourstory  = () => {
 
 
     
-                <img src="/ourhistory.png" alt="vita" className="w-full  md:-mt-[200px] rounded-tl-[30px] rounded-br-[30px]     " data-aos="slide-up" />
+                <img src="/Heros3.jpeg" alt="vita" className="w-full  rounded-tl-[30px] rounded-br-[30px]     " data-aos="slide-up" />
 
 
 
@@ -51,7 +51,7 @@ const Ourstory  = () => {
             
                
 
-                <p className="text-[18px] text-greyBlack  leading-normal md:-mt-[100px]">
+                <p className="text-[18px] text-greyBlack pt-5 leading-normal">
                     In the dynamic world of real estate, our journey began with a stumble, but it transformed
                     into an unwavering quest for authenticity and dependability. Picture a group of young
                     individuals, brimming with enthusiasm and dreams of conquering the real estate realm. Eager

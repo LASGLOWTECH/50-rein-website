@@ -76,7 +76,7 @@ const Contact = () => {
       <div className="grid grid-cols-1 pb-6  gap-3 md:grid-cols-3 ">
 
 
-<div className="item-1  shadow-lg  px-4 py-8 flex justify-center items-center bg-blue-50 flex-col space-y-6 ">
+<div className="item-1  shadow-lg  px-4 py-8 flex justify-center items-center  hover:bg-white bg-gray-50 flex-col space-y-6 ">
   <div className="ico-items bg-orangeRed mt-2 flex w-[30px] h-[30px] rounded-full items-center justify-center  ">
     < MdLocationOn className="text-white stroke-white" />
 
@@ -93,7 +93,7 @@ const Contact = () => {
 
 
 
-<div className="item-1 shadow-lg  py-8 flex justify-center items-center bg-blue-50 flex-col space-y-6">
+<div className="item-1 shadow-lg  py-8 flex justify-center items-center  hover:bg-white bg-gray-50 flex-col space-y-6">
   <div className="ico-items bg-orangeRed mt-2 flex items-center justify-center w-[30px] h-[30px] rounded-[50%]"  >
     < BiSolidEnvelope className="text-white" />
   </div>
@@ -106,7 +106,7 @@ const Contact = () => {
 </div>
 
 
-<div className="item-1  shadow-lg px-4 py-8 flex justify-center items-center bg-blue-50 flex-col space-y-6 ">
+<div className="item-1  shadow-lg px-4 py-8 flex justify-center items-center hover:bg-white bg-gray-50  flex-col space-y-6 ">
   <div className="ico-items bg-orangeRed mt-2 flex items-center justify-center w-[30px] h-[30px] rounded-[50%]" >
     <BiSolidPhoneCall className="text-white" />
 
@@ -153,10 +153,10 @@ const Contact = () => {
 
 <div className="form">
 
-  <form className="  my-5 flex flex-col px-3 bg-gray-700  rounded-tr-[50px] " ref={form} onSubmit={sendEmail}>
+  <form className="  my-5 flex flex-col px-3 bg-gradient-to-r from-darkBlue to-darkBlue rounded-tr-[50px] " ref={form} onSubmit={sendEmail}>
     < h3 className=" font-medium  text-2xl pt-5 text-gray-100">Please enter your details here</h3>
 
-    <p className=" text-base text-green-500 ps-5 py-2 text-gray-500">{result} </p>
+    <p className=" text-baseps-5 py-2 text-gray-500">{result} </p>
 
 
     <div className="email-send flex flex-col ">

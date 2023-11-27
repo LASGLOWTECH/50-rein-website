@@ -55,7 +55,9 @@ const Navbar = () => {
     setShow(show => !show)
 
   }
-  const active = { display: 'flex' }
+  const active = {
+    zIndex:"999",
+     display: 'flex' }
   
 
   const toggleI = show ? 'active' : '';
@@ -65,7 +67,7 @@ const Navbar = () => {
 
 
 
-      <div className='Nav border border-b-black-200 md:px-20 w-100vh  bg-white ' data-aos="slide-up">
+      <div className='Nav  md:px-20 w-100vh bfront  bg-white ' data-aos="slide-up">
         <div className=" xs:px-4   mx-auto  flex flex-row py-2 justify-between items-center ">
           <div className="navbrand">
             <img src="/50rein.png" alt="vita" className="w-[200px] h-auto " />
@@ -73,34 +75,34 @@ const Navbar = () => {
           </div>
 
           <div className="hidden LIinksmd md:flex pt-4 ms-32 "  >
-            <Link to="/" className=" px-4  hover:border-b-2 hover:rounded-l transition  border-orangeRed   text-[18px] text-lightBlue font-medium">Home</Link>
+            <Link to="/" className=" px-4  hover:border-b-2 hover:rounded-l transition  border-orangeRed  text-lg text-lightBlue font-medium">Home</Link>
 {/* drop items main header */}
             <div className="drophead text-base px-4   relative transition duration-500 ease-out border-orangeRed   font-bold" >
 
 
-              <span className="flex flex-row justify-start cursor   text-[18px] text-lightBlue font-medium items-center"  onClick={openItems}>Who we are
+              <span className="flex flex-row justify-start cursor   text-lg  text-lightBlue  items-center"  onClick={openItems}>Who We Are
 
                 {!isOpen ? (<IoMdArrowDropdown className="text-orangeRed text-[18px]" />) :
                   (<IoMdArrowDropup className="text-orangeRed text-[18px]" />)
                 }</span>
 
-              <div className=" flex flex-col"  >
+              <div className="flex flex-col  "  >
 
                 {isOpen && (
-                  <div className="dropItems  flex flex-col absolute  transition duration-500 ease-out  w-[150px]  mt-3 bg-white"  onClick={openItems}  >
-                    <Link to="/About" className="text-[18px] px-3  pt-2  hover:text-orangeRed   text-lightBlue font-medium ">About us
+                  <div className="  flex flex-col transition duration-500 ease-out  w-[150px]  mt-1 bg-white "  onClick={openItems}  >
+                    <Link to="/About" className="text-base px-3  pt-2  hover:text-orangeRed   text-lightBlue  ">About us
                     </Link>
-                    <Link to="/ourhistory" className=" px-3 pt-2  hover:text-orangeRed   text-[18px] text-lightBlue font-medium  ">Our  History
+                    <Link to="/ourhistory" className=" px-3 pt-2   hover:text-orangeRed  text-base text-lightBlue  ">Our  History
                     </Link>
 
                     {/* drop items sumheader */}
-                    <span className="flex flex-row px-3  text-[18px] text-lightBlue  font-medium   pt-2 justify-start items-center" onClick={openItems2}  >Our People
+                    <span className="flex flex-row px-3 text-lg text-lightBlue   bfront   pt-2 justify-start items-center" onClick={openItems2}  >Our People
 
                       {!isOpen2 ? (<IoMdArrowDropdown className="text-orangeRed text-base" />) : (<IoMdArrowDropup className="text-orangeRed text-base" />)} </span>
 
                     {isOpen2 && (
                       <div className=" flex flex-col bg-white">
-                        <Link to="/Team" className=" px-3  pt-2  hover:text-orangeRed  text-[18px] text-lightBlue font-medium">Our Team
+                        <Link to="/Team" className=" px-3  pt-2  hover:text-orangeRed  text-base text-lightBlue">Our Team
                         </Link>
                        </div>
                     )}
@@ -118,7 +120,7 @@ const Navbar = () => {
 
 
 
-            <Link to="/services" className="px-3   hover:border-b-2 transition  border-orangeRed  text-[18px] text-lightBlue font-medium">What We Do</Link>
+            <Link to="/services" className="px-3   hover:border-b-2 transition  border-orangeRed  text-lg text-lightBlue font-medium">What We Do</Link>
 
 
 
@@ -126,17 +128,17 @@ const Navbar = () => {
             <div className="drophead  px-3   relative transition duration-500 ease-out border-orangeRed  text-[18px] text-lightBlue font-medium   "  >
 
 
-<span className="flex flex-row justify-start cursor  items-centerb text-[18px] text-lightBlue font-medium" onClick={openItems3}>Keep Up With Us
+<span className="flex flex-row justify-start cursor  items-centerb text-[18px] text-lightBlue font-medium z-40" onClick={openItems3}>Keep Up With Us
 
   {!isOpen3 ? (<IoMdArrowDropdown className="text-orangeRed text-[18px]" />) :
     (<IoMdArrowDropup className="text-orangeRed text-[18px]" />)
   }</span>
 
-<div className=" flex flex-col h-auto py-2"   >
+<div className=" flex flex-col h-auto"   >
 
   {isOpen3 && (
-    <div className="dropItems flex flex-col absolute  transition duration-500 ease-out  w-[150px]  mt-3 bg-white" onMouseLeave={openItems3} onClick={openItems3}>
-      <Link to="/realtors" className=" px-3  pt-2  hover:text-orangeRed   text-[18px] text-lightBlue font-medium">Realtors
+    <div className="dropItems flex flex-col   transition duration-500 ease-out  w-[150px]  bg-white" onMouseLeave={openItems3} onClick={openItems3}>
+      <Link to="/realtors" className=" px-3  pt-2  hover:text-orangeRed   text-[16px] text-lightBlue ">Real Estate Icons
       </Link>
       
      
@@ -174,10 +176,10 @@ const Navbar = () => {
 
 {/* responsive class */}
 
-      <div className={`hidden  text-white py-5 flex ${toggleI} bg-darkBlue border-lightBlue border-t-2 w-[100%] h-[auto] transition  ease-in-out delay-200 duration-500  md:hidden    `} onClick={handleClose}>
+      <div className={`hidden  text-white py-5  ${toggleI} bg-darkBlue border-lightBlue border-t-2 w-[100%] h-[auto] transition  ease-in-out delay-200 duration-500  md:hidden    `} onClick={handleClose}>
 
 
-        <div className="container px-6 mx-auto Navlinks  flex  pt-5 flex-col space-y-3 text-white justify-between space-y-8 text-base font-medium md:hidden  ">
+        <div className="container px-6 mx-auto Navlinks  flex  pt-5 flex-col space-y-3 text-white justify-between  text-base font-medium md:hidden  ">
           <Link to="/" className="text-base   hover:text-orangeRed  text-white"> Home</Link>
 
           
@@ -196,7 +198,7 @@ const Navbar = () => {
 
   {isOpen && (
     <div className="dropItems  flex flex-col  space-y-6 transition duration-500 ease-out  w-[150px]  mt-2 "  onClick={openItems}>
-      <Link to="/About" className="text-base  pt-2  hover:bg-orangeRed  text-white">About us
+      <Link to="/About" className="text-base  pt-2  hover:bg-orangeRed  text-white">About Us
       </Link>
       <Link to="/ourhistory" className="text-base  pt-2  hover:bg-orangeRed  text-white">Our History
       </Link>
@@ -232,7 +234,7 @@ const Navbar = () => {
 
        
 
-          <Link to="/realtors" className="text-base   hover:text-orangeRed  text-white">Estate Icons </Link>
+          <Link to="/realtors" className="text-base   hover:text-orangeRed  text-white"> Real Estate Icons </Link>
         
 
 

@@ -31,7 +31,7 @@ const Services = () => {
 
 <section className=" bg-gray-50 ">
             <div className="  container py-6 mx-auto grid  gap-t-3  grid-cols-1    md:grid-cols-2 ">
-                <div className=" bg-white   rounded-bl-[50px] " data-aos="fade-out">
+                <div className="    rounded-bl-[50px] " data-aos="fade-out">
                     <div className="left px-6 pt-6 md:pt-10 hover:scale-100 transition  duration-500  ">
                             <h4 className="text-darkBlue  py-3 text-3xl md:text-left text-center font-bold">What We Do</h4>
 
@@ -50,7 +50,7 @@ const Services = () => {
 
 
                 <div className="  ">
-                    <img src="/ourservices.jpg" alt="vita" className="w-full mt-4 md:mt-0 rounded-tr-[100px] " data-aos="slide-up" />
+                    <img src="/Heros7.jpg" alt="vita" className="w-full mt-4 md:mt-0 rounded-[30px] " data-aos="slide-up" />
 
 
 

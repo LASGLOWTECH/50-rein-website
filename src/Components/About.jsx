@@ -63,10 +63,10 @@ const About = () => {
                     {/* rounded square */}
                     <div className="  flex items-center justify-center  my-20">
 
-                        <div className="bg-orangeRed  rounded-[30px]  "  data-aos="slide-up">
+                        <div className=" "  data-aos="slide-up">
 
 
-                            <img src="/aboutus.jpg" alt="vita" className="  rounded-[30px] w-full  h-auto pl-3 pt-3 " />
+                            <img src="/Iconic.jpg" alt="vita" className="  rounded-[30px] w-full  h-auto pl-3 pt-3 " />
 
                         </div>
 

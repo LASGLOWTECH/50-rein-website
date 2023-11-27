@@ -47,7 +47,7 @@ background-position:center  ;
 
 
 .Hero-about{
-  background: rgba(0, 0, 0, 0.7) url("/meeting.jpg");
+  background: rgba(0, 0, 0, 0.7) url("/Heros2.jpeg");
   background-repeat: no-repeat;
   background-blend-mode:color-burn;
   background-size: cover;
@@ -84,9 +84,13 @@ background-position: -20 40px
   height: auto;
   background-size: cover;
   
-  clip-path:ellipse(100% 50% at 50% 50%);
+  clip-path: "ellipse(100% 55% at 55% 55%)";
+
+ 
   background-repeat: no-repeat;
   background-blend-mode: darken;
 
 }
-      
+   .bfront{
+    z-index: 999;
+   }   

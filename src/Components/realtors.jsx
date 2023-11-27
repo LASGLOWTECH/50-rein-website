@@ -12,7 +12,7 @@ const Realtors = () => {
                <h1 className=" mt-20 max-w-2xl text-white tracking-wider  font-bold text-center text-4xl   md:text-5xl md:leading-normal">GREAT SPIRIT, WE ARE COMING <span className="text-orangeRed">SOON</span></h1>
 
                <Link to="/contact">
-<div className="  bg-opacity-20 shadow-lg  flex items-center justify-center    bg-opacity-20 py-10 ">
+<div className="  bg-opacity-20 shadow-lg  flex items-center justify-center    py-10 ">
     {/* <img src="/mirrrorb.jpg" alt="vita" className="w-full h-auto  " /> */}
    <h3 className="text-white text-2xl rounded-xl p-2 border-2 font-medium hover:bg-lightBlue border-lightBlue">CONTACT US</h3>
     
