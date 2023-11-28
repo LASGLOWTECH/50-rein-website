@@ -62,7 +62,7 @@ const Footer = () => {
             {/* <h5 className=' max-w-md text-xl pb-2 text-left text-orangeRed font-bold md:text-xl'>Contact us </h5> */}
             <img src="/50rein.png" alt="vita" className="w-[100px] h-auto " />
 
-              < p className="text-base text-gray-500 py-3">Real Estate icons in Nigeria</p>
+              < p className="text-base text-gray-400 py-3">Real Estate icons in Nigeria</p>
 
             <div className="flex flex-row justify-left items-center pt-3">
 
@@ -98,7 +98,7 @@ const Footer = () => {
             <h4 className='   text-base pb-2  text-left  text-lightBlue font-bold md:text-xl '>Quick Links </h4>
             <p className="text-base  hover:text-orangeRed text-gray-200 py-2"><Link to="/About">About us </Link> </p>
             <p className="text-base hover:text-orangeRed  text-gray-200 py-2"><Link to="/services">Services</Link> </p>
-            <p className="text-base  hover:text-orangeRed text-gray-200 py-2"><Link to="/realtors">Icons</Link> </p>
+            <p className="text-base  hover:text-orangeRed text-gray-200 py-2"><Link to="/Estaticons">Icons</Link> </p>
             <p className="text-base  hover:text-orangeRed text-gray-200 py-2"><Link to="/Team">Team</Link> </p>
 
           </div>
@@ -119,7 +119,7 @@ const Footer = () => {
         flex flex-col ">
 <h4 className='   text-base pb-2  text-left  text-lightBlue  font-bold md:text-xl '>Subscribe to our newsletter</h4>
             
-            <p className="text-base text-left text-gray-500 py-3">Get updates from us on our latest events.</p>
+            <p className="text-base text-left text-gray-400 py-3">Get updates from us on our latest events.</p>
             <form className="form" ref={form} onSubmit={sendEmail}>
 
 
@@ -147,8 +147,8 @@ const Footer = () => {
 
         </div>
 
-<div className="flex flex-col justify-between row flex-col md:flex-row">
-<p className="text-sm text-center md:text-left font-lighter  text-gray-500 py-2"> Copyright &copy; 50 rein  All rights reserved <span className="  text-greyDark">{newDay} </span><br></br> powered by Lasglowtech</p>
+<div className="flex flex-col justify-between row  md:flex-row">
+<p className="text-sm text-center md:text-left font-lighter  text-gray-400 py-2"> Copyright &copy; 50rein  All rights reserved <span className="  text-greyDark">{newDay} </span><br></br> powered by Lasglowtech</p>
  
 
 </div>

@@ -29,9 +29,9 @@ const Home = () => {
     <>
 
 
-<div className="bg-white -z-40"> <CarouselList /></div>
-     
-    
+      <div className="bg-white -z-40"> <CarouselList /></div>
+
+
 
 
 
@@ -46,7 +46,7 @@ const Home = () => {
           <div className="border-2 mt-2  border-orangeRed  mx-auto rounded-md w-[100px] " data-aos="slide-right"></div>
 
 
-          <div className=" grid md:mt-10 gap-3 grid-cols-1    md:grid-cols-2 ">
+          <div className=" grid md:mt-10 gap-3 grid-cols-1  items-center justify-center  md:grid-cols-2 ">
 
 
             <div className="   rounded-md " data-aos="zoom-in-up">
@@ -61,7 +61,7 @@ const Home = () => {
 
                 <Link to="/About" className=" w-auto  text-lg  mx-[35%] md:mx-[0] 
   ">
-                  <button className="  px-3 py-3  mt-6 rounded-3xl  bg-orangeRed text-white hover:bg-lightBlue ">Read more</button>
+                  <button className="  px-3 py-2  mt-2 rounded-lg  bg-orangeRed text-white hover:bg-lightBlue ">Read more</button>
 
 
                 </Link>
@@ -74,8 +74,8 @@ const Home = () => {
 
 
 
-            <div className=" mt-4 md:mt-10   rounded-br-[50px]   " data-aos="zoom-in-up">
-              <img src="/Heros.jpeg" alt="vita" className="  rounded-[30px] h-auto " />
+            <div className=" mt-4 md:mt-10      " data-aos="zoom-in-up">
+              <img src="/Heros.jpeg" alt="vita" className=" px-2  h-auto " />
 
 
 
@@ -92,7 +92,7 @@ const Home = () => {
 
 
       <h3 className="className=text-darkBlue text-3xl pt-32 text-center">What We Do</h3>
-      <div className="border-2 mt-1 border-orangeRed   mx-auto rounded-md w-[100px] "></div>
+      <div className="border-2 mt-2 mb-6  border-orangeRed  mx-auto rounded-md w-[100px] " data-aos="slide-right"></div>
 
 
 
@@ -101,25 +101,25 @@ const Home = () => {
 
 
 
-      <section className=" Hero2  mt-10  s">
+      <section className=" Hero2  mt-4">
 
         <div className="container mx-auto">
 
 
-          <div className=" grid grid-cols-1 md:grid-cols-2 items-center place-items-center  md:pt-3 " data-aos="zoom-in-up">
+          <div className=" grid grid-cols-1 md:grid-cols-2 items-center justify-center " data-aos="zoom-in-up">
 
 
-            <div className="bg-white rounded-[50px] " data-aos="fade-in">
-              <img src="/Heros10.jpg" alt="vita" className="w-full  rounded-3xl md:w-[700px]      " />
+            <div className="bg-white " data-aos="fade-in">
+              <img src="/Heros10.jpg" alt="vita" className="w-full  px-2       " />
 
 
             </div>
 
             <div className="left px-4 py-10 -50 rounded-tl-[50px]    md:-mt-[0px]  rounded-circle ">
-              <h3 className="text-darkBlue pt-16   px-3 text-center md:text-left font-medium  text-3xl md:text-5xl">A Strive to Inspire Future Leaders</h3>
+              <h3 className="text-darkBlue pt-6 md:pt-10  px-3 text-center md:text-left font-medium  text-3xl md:text-5xl">A Strive to Inspire Future Leaders</h3>
 
 
-              <p className="text-[18px]    text-greyBlack   text-truncate font-md  pb-8 md: pt-6 leading-8 ">
+              <p className="text-[18px] md:text-left text-center   text-greyBlack  px-2 text-truncate font-md  pb-8 md: pt-6 leading-8 ">
                 Being passionate about creating a terrific impact in the Nigeria real estate industry,
                 we strive to inspire future industry leaders by creating a definitive collection that showcases
                 the exemplary achievements of
@@ -129,7 +129,7 @@ const Home = () => {
 
 
               <div>            <Link to="/services" className=" text-xl mx-[35%] md:mx-0
- px-4 py-3 rounded-3xl bg-orangeRed text-white hover:bg-lightBlue  ">
+  px-3 py-2  mt-2 rounded-lg bg-orangeRed text-white hover:bg-lightBlue  ">
                 <button className=" text-base ">Read more</button> </Link></div>
 
 
@@ -167,20 +167,12 @@ const Home = () => {
 
 
 
+      {/* How we started */}
 
 
 
-
-      <h3 className="text-darkBlue text-2xl pt-10 text-center">How We Started</h3>
-      <div className="border-2 mt-1  border-orangeRed   mx-auto rounded-md w-[100px] "></div>
-
-
-
-
-
-
-
-
+      <h3 className="className=text-darkBlue text-3xl pt-32 text-center">How We Started</h3>
+      <div className="border-2 mt-2 mb-6  border-orangeRed  mx-auto rounded-md w-[100px]"  data-aos="slide-right"> </div>
 
 
       <section className=" mt-10  rounded-br-[20%] rounded-bl-[20%]">
@@ -208,7 +200,7 @@ const Home = () => {
 
 
               <div>     <Link to="/ourhistory" className=" text-xl mx-[35%] md:mx-0
- px-4 py-3 rounded-3xl bg-orangeRed text-white hover:bg-lightBlue  ">
+  px-3 py-2  mt-2 rounded-lg bg-orangeRed text-white hover:bg-lightBlue  ">
                 <button className=" text-base ">Read more</button> </Link></div>
 
 
@@ -218,8 +210,8 @@ const Home = () => {
 
 
 
-            <div className="pt-2 pe-2 bg-orangeRed rounded-tl-[30px] rounded-br-[30px]  " data-aos="fade-in">
-              <img src="/Heros4.jpeg" alt="vita" className="w-full   rounded-tl-[30px]  border-3 md:w-[600px] border-bl-blue    rounded-br-[30px] h-auto " />
+            <div className="pt-2 pe-1  bg-lightBlue  " data-aos="fade-in">
+              <img src="/Heros4.jpeg" alt="vita" className="w-full     h-auto " />
 
 
             </div>
@@ -266,9 +258,9 @@ const Home = () => {
 
         <div className="container mx-auto">
 
-          <div className=" grid grid-cols-1 md:grid-cols-2 items-center place-items-center  pt-6 " >
-            <div className="pl-1 pt-1 bg-orangeRed  rounded-tl-[30px] rounded-br-[30px] " data-aos="slide-in">
-              <img src="/Heros6.jpeg" alt="vita" className="w-full  border-3 md:w-[600px]  rounded-br-[30px]   rounded-tl-[30px] h-auto " />
+          <div className=" grid grid-cols-1 md:grid-cols-2 items-center justify-center  pt-6 " >
+            <div className="pl-1 pt-1 bg-lightBlue " data-aos="slide-up">
+              <img src="/CEOS.jpg" alt="vita" className="w-full h-auto " />
 
 
             </div>
@@ -287,8 +279,8 @@ const Home = () => {
               </p>
 
 
-              <div>            <Link to="/realtors" className=" text-xl mx-[35%] md:mx-0
-px-4 py-3 mt-10 rounded-2xl bg-orangeRed text-white hover:bg-lightBlue  ">
+              <div>            <Link to="/Estaticons" className=" text-xl mx-[35%] md:mx-0
+px-3 py-2  mt-2 rounded-lg bg-orangeRed text-white hover:bg-lightBlue  ">
                 <button className=" text-base ">Read more</button> </Link></div>
 
 
@@ -337,7 +329,7 @@ px-4 py-3 mt-10 rounded-2xl bg-orangeRed text-white hover:bg-lightBlue  ">
 
 
 
-<Testifiers/>
+      <Testifiers />
       {/* <div className="mt-2 ">
         <Carouselitem />
       </div> */}

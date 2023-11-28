@@ -65,7 +65,7 @@ const CarouselList = () => {
               style=
               {{ zIndex:"-999",
                 backgroundImage: `url(${creative.Picture})`,
-                clipPath: "ellipse(100% 55% at 48% 44%)"
+              
               }}>
 
               <div className='overlay relative w-full h-full backdrop-brightness-50   flex justify-center items-center flex-col '>

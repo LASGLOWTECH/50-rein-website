@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import './index.css'
 import Navbar from './Components/Navbar'
 import Home from './Components/hero';
-import Realtors from './Components/realtors';
+import Realtors from './Components/Estaticons';
 import Footer from './Components/footer';
 import Services from './Components/services';
 import Team from './Components/Team';
@@ -53,7 +53,7 @@ function App() {
       <Route path='/services' element={<Services />} />
       <Route path='/team' element={<Team />} />
       <Route path='/faq' element={<Faq />} />
-      <Route path='/realtors' element={<Realtors />} />
+      <Route path='/Estaticons' element={<Realtors />} />
       <Route path='/ourhistory' element={<Ourstory />} />
       <Route path='/*' element={<Failurepage  />} />
       

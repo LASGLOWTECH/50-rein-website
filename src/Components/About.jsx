@@ -39,7 +39,7 @@ const About = () => {
 
         <div className="  h-auto w-100 " >
             <div className=" container mx-auto px-6" >
-                <div className="   grid  md:grid-cols-2   grid-cols-1    ">
+                <div className="   grid  md:grid-cols-2  items-center justify-center grid-cols-1    ">
 
                     <div className="left py-8 px-2">
                         <p className="text-2xl  text-orangeRed font-md pt-8">
@@ -55,7 +55,7 @@ const About = () => {
                             the annals of Nigerian real estate history.</p>
 
                         <Link to="/ourhistory" className="  text-l mx-[35%]
- md:mx-[0] px-3 py-3 rounded-3xl  bg-orangeRed text-white hover:bg-lightBlue  ">
+ md:mx-[0] px-3 py-2  mt-2 rounded-lg bg-orangeRed text-white hover:bg-lightBlue  ">
                             <button className=" text-xl">know more</button> </Link>
 
                     </div>
@@ -66,7 +66,7 @@ const About = () => {
                         <div className=" "  data-aos="slide-up">
 
 
-                            <img src="/Iconic.jpg" alt="vita" className="  rounded-[30px] w-full  h-auto pl-3 pt-3 " />
+                            <img src="/Iconic.jpg" alt="vita" className="  w-full  h-auto px-2 pt-3 " />
 
                         </div>
 

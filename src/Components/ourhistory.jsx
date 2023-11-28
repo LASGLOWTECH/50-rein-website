@@ -39,7 +39,7 @@ const Ourstory  = () => {
 
 
     
-                <img src="/Heros3.jpeg" alt="vita" className="w-full  rounded-tl-[30px] rounded-br-[30px]     " data-aos="slide-up" />
+                <img src="/Heros3.jpeg" alt="vita" className="w-full      " data-aos="slide-up" />
 
 
 

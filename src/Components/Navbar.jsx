@@ -138,7 +138,7 @@ const Navbar = () => {
 
   {isOpen3 && (
     <div className="dropItems flex flex-col   transition duration-500 ease-out  w-[150px]  bg-white" onMouseLeave={openItems3} onClick={openItems3}>
-      <Link to="/realtors" className=" px-3  pt-2  hover:text-orangeRed   text-[16px] text-lightBlue ">Real Estate Icons
+      <Link to="/Estaticons" className=" px-3  pt-2  hover:text-orangeRed   text-[16px] text-lightBlue ">Real Estate Icons
       </Link>
       
      
@@ -234,7 +234,7 @@ const Navbar = () => {
 
        
 
-          <Link to="/realtors" className="text-base   hover:text-orangeRed  text-white"> Real Estate Icons </Link>
+          <Link to="/Estaticons" className="text-base   hover:text-orangeRed  text-white"> Real Estate Icons </Link>
         
 
 
