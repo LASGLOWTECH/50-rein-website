@@ -74,15 +74,16 @@ const Services = () => {
                 <div className="  container py-6 md:pt-0 md:pb-6 mx-auto  ">
 
 
-                    <div className=" rounded-lg grid py-3 gap-5 grid-cols-1    md:grid-cols-2">
+                    <div className="  grid py-3 gap-5 grid-cols-1    md:grid-cols-2">
                         {Service.map((items, index) => {
                             return (
-                                <div className="left py-6  hover:scale-105 transition md:hover:bg-white   duration-500 rounded-[30px] shadow-lg bg-white" key={index} >
-                                    <span className="flex flex-col justify-center p-3  items-center md:bg-orangeRed-50 md:justify-start "><img src={items.pics} alt="icon" className=" w-[100px]  p-2  bg-white shadow-lg rounded-[100%] " />
-                                        <h4 className="text-darkBlue text-l pt-6 ps-3 font-bold">{items.Title}</h4></span>
+                                <div className="left py-6 px-2  hover:scale-105 transition md:hover:bg-white   duration-500  shadow-sm hover:bg-gray-50" key={index}  data-aos-duration="1500" data-aos="slide-up">
+                                    <span className="flex flex-col justify-center items-center md:items-start p-3   md:bg-orangeRed-50 md:justify-start "><img src={items.pics} alt="icon" className=" w-[120px]  p-2  shadow-lg rounded-[100%] " />
+                                        <h4 className="text-darkBlue md:text-left text-center  text-xl capitalize pt-8 px-3 font-bold">{items.Title}</h4></span>
+                                  
+                                    <div className="border-2 mt-2 mb-6 mx-auto md:ml-6  border-orangeRed  rounded-md w-[100px]" data-aos="slide-down"> </div>
 
-
-                                    <p className=" text-greyBlack text-[16px] text-center text-truncate font-md pt-6 px-6  leading-loose  md:text-left">{items.Info}
+                                    <p className=" text-greyBlack text-[16px] text-center text-truncate font-md pt-3 px-6  leading-loose  md:text-left">{items.Info}
                                     </p>
 
 

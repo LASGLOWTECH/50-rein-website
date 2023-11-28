@@ -210,7 +210,7 @@ const Home = () => {
 
 
 
-            <div className="pt-2 pe-1  bg-lightBlue  " data-aos="fade-in">
+            <div className="pt-1 pe-1  bg-lightBlue  " data-aos="fade-in">
               <img src="/Heros4.jpeg" alt="vita" className="w-full     h-auto " />
 
 
