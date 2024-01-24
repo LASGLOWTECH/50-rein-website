@@ -3,7 +3,7 @@
     ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/reincom/public/
+    - export DEPLOYPATH=/home/reincom/public_html/
     - /bin/cp -R .vscode $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
