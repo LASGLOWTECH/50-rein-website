@@ -38,7 +38,7 @@ function App() {
     flex  flex-col justify-center items-center h-[100vh] '
        >
 
-        <img src='/50logo.png' className="load-img animate-pulse w-[400px]" alt='hem' ></img>
+        <img src='/50logo.png' className="load-img animate-pulse w-[300px]" alt='hem' ></img>
 
         </div> :
 <>

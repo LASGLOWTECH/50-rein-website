@@ -153,7 +153,7 @@ const Contact = () => {
 
 <div className="form">
 
-  <form className="  my-5 flex flex-col px-3 bg-gradient-to-r from-darkBlue to-darkBlue rounded-tr-[50px] " ref={form} onSubmit={sendEmail}>
+  <form className="  my-5 flex flex-col px-3 bg-gradient-to-r from-darkBlue to-darkBlue " ref={form} onSubmit={sendEmail}>
     < h3 className=" font-medium  text-2xl pt-5 text-gray-100">Please enter your details here</h3>
 
     <p className=" text-baseps-5 py-2 text-gray-500">{result} </p>

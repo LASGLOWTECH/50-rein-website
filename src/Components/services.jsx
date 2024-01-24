@@ -65,11 +65,6 @@ const Services = () => {
             </section>
 
 
-
-
-
-
-
             <section className="mt-10">
                 <div className="  container py-6 md:pt-0 md:pb-6 mx-auto  ">
 

@@ -325,14 +325,12 @@ px-3 py-2  mt-2 rounded-lg bg-orangeRed text-white hover:bg-lightBlue  ">
 
       <div className="border-2 mt-2 mb-6  border-orangeRed  mx-auto rounded-md w-[100px] " data-aos="slide-right"></div>
 
-      <h3 className="text-darkBlue pt-2 pb-6   md:py-2 px-1 text-center my font-medium text-2xl md:text-3xl">What People Say About Us</h3>
+      <h3 className="text-darkBlue pt-2 pb-6  mb-5  md:py-2 px-1 text-center my font-medium text-2xl md:text-3xl">What People Say About Us</h3>
 
 
 
       <Testifiers />
-      {/* <div className="mt-2 ">
-        <Carouselitem />
-      </div> */}
+   
 
       <div className="  Hero  md:mx-36 ">
 

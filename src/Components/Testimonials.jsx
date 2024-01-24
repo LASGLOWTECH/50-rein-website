@@ -1,20 +1,32 @@
 const Testimony =[
     {id:1,
-Picture:"/Test2.png",
-    Title:" Anthony", 
-    Subtext:"It is not just a group; they are a trusted partner in our business journey. Their commitment to our success is evident in everything they do."
+
+    Title:" Dr. Kayode A", 
+    Subtext:"50 REIN isn't just a compendium; it's a testament to the resilience, creativity, and ambition that propels Nigeria's real estate sector forward. These icons aren't just shaping skylines; they're shaping the future."
 },
 
 {id:2,
-    Picture:"/Test3.png",
-    Title:"Felix", 
-    Subtext:"The team at 50 reins are truly passionate about their craft. Their attention to detail and creative vision turned my house into a work of art. I'm grateful for their expertise."
+    
+    Title:"Mr. Paul O.", 
+    Subtext:"These 50 Real Estate Icons have created homes, offices, and communities that inspire pride and joy. And they have done it all with transparency, accountability, and a deep commitment to their clients."
 },
 
 {id:3,
-    Picture:"/Test4.png",
-    Title:"Peace ", 
-    Subtext:"I'm impressed with the professionalism and expertise of the team at 50 rein . They delivered results that exceeded our expectations."
+    
+    Title:"Mrs. Sade B. ", 
+    Subtext:"They are individuals and organizations that have proven that it's possible to succeed in the real estate industry without cutting corners or compromising values."
+},
+
+{id:4,
+  
+    Title:"Charles M. ", 
+    Subtext:"From visionary developers to strategic investors, each icon has a story worth telling. Hear firsthand about their challenges, triumphs, and the relentless pursuit of excellence that has defined their careers."
+},
+
+{id:5,
+    
+    Title:"Mrs Uzo O. ", 
+    Subtext:"These are the visionaries who haven't just built structures; they've constructed trust – the very foundation of every successful real estate venture."
 },
 ]
  

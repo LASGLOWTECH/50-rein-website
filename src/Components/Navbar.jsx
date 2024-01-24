@@ -70,7 +70,7 @@ const Navbar = () => {
       <div className='Nav  md:px-20 w-100vh bfront  bg-white ' data-aos="slide-up">
         <div className=" xs:px-4   mx-auto  flex flex-row py-2 justify-between items-center ">
           <div className="navbrand">
-            <img src="/50rein.png" alt="vita" className="w-[200px] h-auto " />
+            <img src="/50rein.png" alt="vita" className="w-[150px] h-auto " />
 
           </div>
 
