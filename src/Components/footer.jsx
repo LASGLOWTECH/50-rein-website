@@ -4,7 +4,7 @@ import React, { useRef } from 'react';
 import  {BiEnvelope}  from "react-icons/bi";
 import { BsTelephone,  } from "react-icons/bs";
 import { MdLocationOn } from "react-icons/md";
-
+import emailjs from '@emailjs/browser'
 import { BsTwitter, BsLinkedin } from "react-icons/bs";
 import { FaFacebookF, FaInstagram, } from "react-icons/fa"
 import { Link } from "react-router-dom";
@@ -17,7 +17,7 @@ const Footer = () => {
   const [result, setResult] = useState("")
 
   const sendEmail = (e) => {
-    console.log(env);
+    console.log(e);
     e.preventDefault();
 
     setIsloading(true);
@@ -30,6 +30,8 @@ const Footer = () => {
         setIsloading(false);
         setTimeout(() => {
           setResult("Succesfully subscribed")
+          e.target.reset()
+          setResult("")
 
 
         }, (1000))
@@ -41,8 +43,7 @@ const Footer = () => {
 
 
       });
-    e.target.reset()
-    setResult("")
+  
     }
 
 
@@ -126,10 +127,13 @@ const Footer = () => {
             <div className="email-send flex  flex-row justify-start items-center ">
              
                 <input type="Email" className="py-1  bg-cyanGreen ps-5 mt-2 w-[300px] h-[40px] text-base text-darkGrey rounded-tl-md rounded-bl-md " name="user_email" required placeholder="Enter your email"></input>
-                <input type="submit" className=" hover:bg-lightBlue hover:text-white font-bold text-base flex place-self-star   rounded-tr-md rounded-br-md  px-2 py-2 mt-2 bg-orangeRed text-white" value="Send" />
+                {!loading && < input type="submit" className=" hover:bg-lightBlue hover:text-white font-bold text-base flex place-self-star   rounded-tr-md rounded-br-md  px-2 py-2 mt-2 bg-orangeRed text-white" value="Send" />}
+                {loading && <input type="submit" className=" hover:bg-lightBlue hover:text-white font-bold text-base flex place-self-star   rounded-tr-md rounded-br-md  px-2 py-2 mt-2 bg-orangeRed text-white" disabled value="Sending" />}
+            
               </div>
-              {result &&<p className="text-base text-left text-[green] py-3">{result}</p>}
+              {result &&<p className="text-base text-left text-orangeRed py-3">{result}</p>}
 
+             
             </form>
             
             

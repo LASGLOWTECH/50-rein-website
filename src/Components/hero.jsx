@@ -22,7 +22,7 @@ const Home = () => {
 
 
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 1000 });
 
   }, []);
   return (
@@ -49,7 +49,7 @@ const Home = () => {
           <div className=" grid md:mt-10 gap-3 grid-cols-1  items-center justify-center  md:grid-cols-2 ">
 
 
-            <div className="   rounded-md " data-aos="zoom-in-up">
+            <div className="   rounded-md " data-aos="slide-up">
               <div className="left px-2 pb-2  ">
                 <h3 className="text-darkBlue   pt-10 place-item-center    text-center md:text-left font-medium text-5xl">An Ideation </h3>
 
@@ -172,7 +172,7 @@ const Home = () => {
 
 
       <h3 className="className=text-darkBlue text-3xl pt-32 text-center">How We Started</h3>
-      <div className="border-2 mt-2 mb-6  border-orangeRed  mx-auto rounded-md w-[100px]"  data-aos="slide-right"> </div>
+      <div className="border-2 mt-2 mb-6  border-orangeRed  mx-auto rounded-md w-[100px]"  data-aos="slide-up"> </div>
 
 
       <section className=" mt-10  rounded-br-[20%] rounded-bl-[20%]">

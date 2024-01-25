@@ -58,7 +58,7 @@ const Testifiers = () => {
         {Testimony.map((Testimony, index) => {
           return (
 
-            <div className='  bg-gradient-to-r bg-gray-50 to-darkBlue   mx-auto px-6 py-12 bg-center' 
+            <div className='  bg-gradient-to-r bg-gray-100 to-darkBlue   mx-auto px-6 py-20 bg-center' 
               
            >
 <div className=" flex flex-col md:flex-row md:items-start items-center py-3 " key={index} >
@@ -69,7 +69,7 @@ const Testifiers = () => {
 
               <p className='pt-3 text-center md:text-left px-6  text-gray-800 font-normal text-base  ' data-aos-duration="1500" data-aos="slide-down">{Testimony.Subtext}
            </p>
-                  < h4 className='text-grayBlack  text-center md:text-left  px-6  py-3  font-regular text-2xl'> {Testimony.Title}</h4>
+                  < h4 className='text-grayBlack  text-center md:text-left  px-6  py-3  font-regular text-lg'> {Testimony.Title}</h4>
               
               
               </div>    
@@ -78,10 +78,7 @@ const Testifiers = () => {
 
               
 
-     {/* <img src=  {Testimony.Picture} alt='ourthrive-image ' className=' pt-5 w-full' /> */}
-
-
-
+   
             </div>
 
 

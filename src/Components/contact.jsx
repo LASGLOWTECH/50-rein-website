@@ -20,22 +20,22 @@ const Contact = () => {
   const [result, setResult] = useState("")
 
   const sendEmail = (e) => {
-    console.log(env);
+    console.log(e);
     e.preventDefault();
 
     setIsloading(true);
 
-    emailjs.sendForm('service_fee58ei', 'template_w36kvl7', form.current, 'bQh5caIlf3NMdx1_0')
+    emailjs.sendForm('service_fee58ei', 'template_cdxwnqq', form.current, 'bQh5caIlf3NMdx1_0')
 
       .then((result) => {
 
 
         setIsloading(false);
         setTimeout(() => {
-          setResult("Thanks for Contacting us, message successfully se")
+          setResult("Thanks for Contacting us, message successfully sent")
 
 
-        }, (1000))
+        }, (500))
 
       }, (error) => {
         console.log(error.text);
@@ -45,7 +45,7 @@ const Contact = () => {
 
       });
 
-    e.target.reset()
+
     setResult("")
   };
 
@@ -77,8 +77,8 @@ const Contact = () => {
 
 
 <div className="item-1  shadow-lg  px-4 py-8 flex justify-center items-center  hover:bg-white bg-gray-50 flex-col space-y-6 ">
-  <div className="ico-items bg-orangeRed mt-2 flex w-[30px] h-[30px] rounded-full items-center justify-center  ">
-    < MdLocationOn className="text-white stroke-white" />
+  <div className="ico-items bg-orangeRed mt-2 flex w-[70px] h-[70px] rounded-full items-center justify-center  ">
+    < MdLocationOn className="text-white text-5xl stroke-white" />
 
   </div>
 
@@ -94,8 +94,8 @@ const Contact = () => {
 
 
 <div className="item-1 shadow-lg  py-8 flex justify-center items-center  hover:bg-white bg-gray-50 flex-col space-y-6">
-  <div className="ico-items bg-orangeRed mt-2 flex items-center justify-center w-[30px] h-[30px] rounded-[50%]"  >
-    < BiSolidEnvelope className="text-white" />
+  <div className="ico-items bg-orangeRed mt-2 flex items-center justify-center w-[70px] h-[70px] rounded-[50%]"  >
+    < BiSolidEnvelope className="text-white text-5xl" />
   </div>
 
 
@@ -107,8 +107,8 @@ const Contact = () => {
 
 
 <div className="item-1  shadow-lg px-4 py-8 flex justify-center items-center hover:bg-white bg-gray-50  flex-col space-y-6 ">
-  <div className="ico-items bg-orangeRed mt-2 flex items-center justify-center w-[30px] h-[30px] rounded-[50%]" >
-    <BiSolidPhoneCall className="text-white" />
+  <div className="ico-items bg-orangeRed mt-2 flex items-center justify-center w-[70px] h-[70px] rounded-[50%]" >
+    <BiSolidPhoneCall className="text-white text-5xl" />
 
   </div>
 
@@ -185,7 +185,7 @@ const Contact = () => {
       {!loading && <input type="submit" className=" hover:bg-lightBlue hover:text-white font-bold text-base flex place-self-start rounded-md  px-5 py-2 my-3 bg-orangeRed text-white" value="Send" />}
       {loading && <input type="submit" className="text-base flex place-self-start rounded-md px-5 py-2  my-3 bg-yellow-400" disabled value="Sending" />}
     </div>
-    {result && <p className="text-base text-left text-[green] py-3">{result}</p>}
+    {result && <p className="text-base text-left text-white py-3">{result}</p>}
 
   </form>
 

@@ -55,7 +55,7 @@ const About = () => {
                             the annals of Nigerian real estate history.</p>
 
                         <Link to="/ourhistory" className="  text-l mx-[35%]
- md:mx-[0] px-3 py-2  mt-2 rounded-lg bg-orangeRed text-white hover:bg-lightBlue  ">
+ md:mx-[0] px-3 py-3  mt-2 rounded-lg bg-orangeRed text-white hover:bg-lightBlue  ">
                             <button className=" text-xl">know more</button> </Link>
 
                     </div>
